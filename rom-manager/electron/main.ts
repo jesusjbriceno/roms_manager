@@ -1,12 +1,12 @@
 import { app, BrowserWindow, ipcMain } from 'electron'
-import { createRequire } from 'node:module'
+
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
-import { SSHService } from './services/SSHService.js'
-import { ConfigService } from './services/ConfigService.js'
+import { SSHService } from './services/SSHService'
+import { ConfigService } from './services/ConfigService'
 
-// const require = createRequire(import.meta.url) // Unused
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
+// Derive current directory manually for ESM
+const currentDir = path.dirname(fileURLToPath(import.meta.url))
 
 // The built directory structure
 //
@@ -17,7 +17,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 // │ │ ├── main.js
 // │ │ └── preload.mjs
 // │
-process.env.APP_ROOT = path.join(__dirname, '..')
+process.env.APP_ROOT = path.join(currentDir, '..')
 
 // 🚧 Use ['ENV_NAME'] avoid vite:define plugin - Vite@2.x
 export const VITE_DEV_SERVER_URL = process.env['VITE_DEV_SERVER_URL']
@@ -32,7 +32,9 @@ function createWindow() {
   win = new BrowserWindow({
     icon: path.join(process.env.VITE_PUBLIC, 'electron-vite.svg'),
     webPreferences: {
-      preload: path.join(__dirname, 'preload.mjs'),
+      preload: path.join(currentDir, 'preload.mjs'), // Use correct preload path
+      contextIsolation: true,
+      nodeIntegration: false,
     },
   })
 
