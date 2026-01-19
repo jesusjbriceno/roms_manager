@@ -85,8 +85,24 @@ export class SSHService {
     await this.exec(`mkdir -p "${destinationFolder}" && wget -c "${fullUrl}" -O "${destinationPath}"`);
   }
 
-  async deleteFile(folder: string, fileName: string): Promise<void> {
-    const path = `${folder}/${fileName}`;
+  async deleteFile(path: string): Promise<void> {
     await this.exec(`rm -f "${path}"`);
+  }
+
+  async extract(zipPath: string, destinationFolder: string): Promise<void> {
+    // Ensure destination exists
+    await this.exec(`mkdir -p "${destinationFolder}"`);
+    // Unzip forcing overwrite (-o)
+    await this.exec(`unzip -o "${zipPath}" -d "${destinationFolder}"`);
+  }
+
+  async checkExists(path: string): Promise<boolean> {
+      try {
+          // [ -e path ] returns 0 if exists
+          await this.exec(`[ -e "${path}" ]`);
+          return true;
+      } catch {
+          return false;
+      }
   }
 }

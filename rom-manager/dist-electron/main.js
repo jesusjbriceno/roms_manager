@@ -68,9 +68,20 @@ class SSHService {
     const destinationPath = `${destinationFolder}/${fileName}`;
     await this.exec(`mkdir -p "${destinationFolder}" && wget -c "${fullUrl}" -O "${destinationPath}"`);
   }
-  async deleteFile(folder, fileName) {
-    const path2 = `${folder}/${fileName}`;
+  async deleteFile(path2) {
     await this.exec(`rm -f "${path2}"`);
+  }
+  async extract(zipPath, destinationFolder) {
+    await this.exec(`mkdir -p "${destinationFolder}"`);
+    await this.exec(`unzip -o "${zipPath}" -d "${destinationFolder}"`);
+  }
+  async checkExists(path2) {
+    try {
+      await this.exec(`[ -e "${path2}" ]`);
+      return true;
+    } catch {
+      return false;
+    }
   }
 }
 class ConfigService {
@@ -88,6 +99,39 @@ class ConfigService {
   }
   async saveConfig(config) {
     await fs.writeFile(this.configPath, JSON.stringify(config, null, 2), "utf-8");
+  }
+}
+class LibraryStore {
+  constructor() {
+    __publicField(this, "path");
+    __publicField(this, "data", { games: {} });
+    this.path = path.join(app.getPath("userData"), "library-store.json");
+  }
+  async load() {
+    try {
+      const content = await fs.readFile(this.path, "utf-8");
+      this.data = JSON.parse(content);
+    } catch (error) {
+      this.data = { games: {} };
+    }
+  }
+  async save() {
+    await fs.writeFile(this.path, JSON.stringify(this.data, null, 2));
+  }
+  getGameStatus(id) {
+    var _a;
+    return ((_a = this.data.games[id]) == null ? void 0 : _a.status) || "NOT_INSTALLED";
+  }
+  async updateGameStatus(id, status) {
+    this.data.games[id] = {
+      id,
+      status,
+      lastUpdated: Date.now()
+    };
+    await this.save();
+  }
+  getAllStates() {
+    return this.data.games;
   }
 }
 const currentDir = path$1.dirname(fileURLToPath(import.meta.url));
@@ -127,7 +171,7 @@ app.on("activate", () => {
     createWindow();
   }
 });
-app.whenReady().then(() => {
+app.whenReady().then(async () => {
   createWindow();
   const sshService = new SSHService();
   ipcMain.handle("ssh:connect", async (_, config) => {
@@ -145,9 +189,16 @@ app.whenReady().then(() => {
     await sshService.download(baseUrl, resourcePath, destinationFolder, fileName);
     return true;
   });
-  ipcMain.handle("ssh:delete", async (_, { folder, fileName }) => {
-    await sshService.deleteFile(folder, fileName);
+  ipcMain.handle("ssh:delete", async (_, { path: path2 }) => {
+    await sshService.deleteFile(path2);
     return true;
+  });
+  ipcMain.handle("ssh:extract", async (_, { zipPath, destinationFolder }) => {
+    await sshService.extract(zipPath, destinationFolder);
+    return true;
+  });
+  ipcMain.handle("ssh:check-exists", async (_, path2) => {
+    return await sshService.checkExists(path2);
   });
   const configService = new ConfigService(app.getPath("userData"));
   ipcMain.handle("config:get", async () => {
@@ -156,6 +207,18 @@ app.whenReady().then(() => {
   ipcMain.handle("config:save", async (_, config) => {
     await configService.saveConfig(config);
     return true;
+  });
+  const libraryStore = new LibraryStore();
+  await libraryStore.load();
+  ipcMain.handle("library:get-status", (_, id) => {
+    return libraryStore.getGameStatus(id);
+  });
+  ipcMain.handle("library:update-status", async (_, { id, status }) => {
+    await libraryStore.updateGameStatus(id, status);
+    return true;
+  });
+  ipcMain.handle("library:get-all", () => {
+    return libraryStore.getAllStates();
   });
   ipcMain.handle("app:get-sources", async () => {
     const specificSourcesDir = "d:\\WF\\ssh_roms\\sources";

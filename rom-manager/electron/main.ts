@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import { SSHService } from './services/SSHService'
 import { ConfigService } from './services/ConfigService'
+import { LibraryStore } from './services/LibraryStore'
 
 // Derive current directory manually for ESM
 const currentDir = path.dirname(fileURLToPath(import.meta.url))
@@ -69,7 +70,7 @@ app.on('activate', () => {
   }
 })
 
-app.whenReady().then(() => {
+app.whenReady().then(async () => {
   createWindow()
 
   // IPC Handlers
@@ -93,10 +94,20 @@ app.whenReady().then(() => {
     return true;
   });
 
-  ipcMain.handle('ssh:delete', async (_, { folder, fileName }) => {
-    await sshService.deleteFile(folder, fileName);
+  ipcMain.handle('ssh:delete', async (_, { path }) => {
+    await sshService.deleteFile(path);
     return true;
   });
+
+  ipcMain.handle('ssh:extract', async (_, { zipPath, destinationFolder }) => {
+    await sshService.extract(zipPath, destinationFolder);
+    return true;
+  });
+
+  ipcMain.handle('ssh:check-exists', async (_, path) => {
+    return await sshService.checkExists(path);
+  });
+
   
   // Config Service
   const configService = new ConfigService(app.getPath('userData'));
@@ -109,6 +120,25 @@ app.whenReady().then(() => {
     await configService.saveConfig(config);
     return true;
   });
+
+  // Library Store
+  const libraryStore = new LibraryStore();
+  
+  // Load initial state inside async handler or promise
+  await libraryStore.load(); 
+
+  ipcMain.handle('library:get-status', (_, id) => {
+      return libraryStore.getGameStatus(id);
+  })
+
+  ipcMain.handle('library:update-status', async (_, { id, status }) => {
+      await libraryStore.updateGameStatus(id, status);
+      return true;
+  })
+
+  ipcMain.handle('library:get-all', () => {
+      return libraryStore.getAllStates();
+  })
 
   ipcMain.handle('app:get-sources', async () => {
       // Find sources relative to app root or hardcoded dev path

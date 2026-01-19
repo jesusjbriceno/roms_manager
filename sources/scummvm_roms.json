@@ -1,386 +1,646 @@
-[
-  {
-    "title": "007 James Bond - The Stealth Affair.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/007%20James%20Bond%20-%20The%20Stealth%20Affair.zip",
-    "size": "2.1M",
-    "filename": "007 James Bond - The Stealth Affair.zip"
-  },
-  {
-    "title": "Amazon - Guardians of Eden.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Amazon%20-%20Guardians%20of%20Eden.zip",
-    "size": "8.0M",
-    "filename": "Amazon - Guardians of Eden.zip"
-  },
-  {
-    "title": "Beavis and Butt-head in Virtual Stupidity.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Beavis%20and%20Butt-head%20in%20Virtual%20Stupidity.zip",
-    "size": "229.2M",
-    "filename": "Beavis and Butt-head in Virtual Stupidity.zip"
-  },
-  {
-    "title": "Beneath a Steel Sky.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Beneath%20a%20Steel%20Sky.zip",
-    "size": "116.2M",
-    "filename": "Beneath a Steel Sky.zip"
-  },
-  {
-    "title": "Blade Runner.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Blade%20Runner.zip",
-    "size": "1.1G",
-    "filename": "Blade Runner.zip"
-  },
-  {
-    "title": "Broken Sword 1 La leyenda de los templarios.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Broken%20Sword%201%20La%20leyenda%20de%20los%20templarios.zip",
-    "size": "361.4M",
-    "filename": "Broken Sword 1 La leyenda de los templarios.zip"
-  },
-  {
-    "title": "Broken Sword 2 Las fuerzas del mal.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Broken%20Sword%202%20Las%20fuerzas%20del%20mal.zip",
-    "size": "405.1M",
-    "filename": "Broken Sword 2 Las fuerzas del mal.zip"
-  },
-  {
-    "title": "Bud Tucker in Double Trouble.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Bud%20Tucker%20in%20Double%20Trouble.zip",
-    "size": "63.0M",
-    "filename": "Bud Tucker in Double Trouble.zip"
-  },
-  {
-    "title": "Code-Name, ICEMAN.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Code-Name%2C%20ICEMAN.zip",
-    "size": "2.8M",
-    "filename": "Code-Name, ICEMAN.zip"
-  },
-  {
-    "title": "Discworld 1.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Discworld%201.zip",
-    "size": "343.2M",
-    "filename": "Discworld 1.zip"
-  },
-  {
-    "title": "Discworld 2.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Discworld%202.zip",
-    "size": "681.0M",
-    "filename": "Discworld 2.zip"
-  },
-  {
-    "title": "DreamWeb.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/DreamWeb.zip",
-    "size": "161.8M",
-    "filename": "DreamWeb.zip"
-  },
-  {
-    "title": "EcoQuest - The Search for Cetus.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/EcoQuest%20-%20The%20Search%20for%20Cetus.zip",
-    "size": "163.5M",
-    "filename": "EcoQuest - The Search for Cetus.zip"
-  },
-  {
-    "title": "EcoQuest 2 - El Secreto Perdido de la Selva Amazonica.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/EcoQuest%202%20-%20El%20Secreto%20Perdido%20de%20la%20Selva%20Amazonica.zip",
-    "size": "7.5M",
-    "filename": "EcoQuest 2 - El Secreto Perdido de la Selva Amazonica.zip"
-  },
-  {
-    "title": "Fascination.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Fascination.zip",
-    "size": "229.8M",
-    "filename": "Fascination.zip"
-  },
-  {
-    "title": "Flight of the Amazon Queen.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Flight%20of%20the%20Amazon%20Queen.zip",
-    "size": "35.1M",
-    "filename": "Flight of the Amazon Queen.zip"
-  },
-  {
-    "title": "Freddy Pharkas - Farmaceutico de la Frontera.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Freddy%20Pharkas%20-%20Farmaceutico%20de%20la%20Frontera.zip",
-    "size": "481.7M",
-    "filename": "Freddy Pharkas - Farmaceutico de la Frontera.zip"
-  },
-  {
-    "title": "Full Pipe.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Full%20Pipe.zip",
-    "size": "303.8M",
-    "filename": "Full Pipe.zip"
-  },
-  {
-    "title": "Full Throttle.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Full%20Throttle.zip",
-    "size": "259.9M",
-    "filename": "Full Throttle.zip"
-  },
-  {
-    "title": "Hopkins FBI.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Hopkins%20FBI.zip",
-    "size": "329.7M",
-    "filename": "Hopkins FBI.zip"
-  },
-  {
-    "title": "I Have No Mouth and I Must Scream.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/I%20Have%20No%20Mouth%20and%20I%20Must%20Scream.zip",
-    "size": "293.4M",
-    "filename": "I Have No Mouth and I Must Scream.zip"
-  },
-  {
-    "title": "Indiana Jones y el Destino de la Atlantida.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Indiana%20Jones%20y%20el%20Destino%20de%20la%20Atlantida.zip",
-    "size": "60.3M",
-    "filename": "Indiana Jones y el Destino de la Atlantida.zip"
-  },
-  {
-    "title": "Indiana Jones y la Ultima Cruzada.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Indiana%20Jones%20y%20la%20Ultima%20Cruzada.zip",
-    "size": "3.1M",
-    "filename": "Indiana Jones y la Ultima Cruzada.zip"
-  },
-  {
-    "title": "Inherit the Earth - Quest for the Orb.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Inherit%20the%20Earth%20-%20Quest%20for%20the%20Orb.zip",
-    "size": "376.0M",
-    "filename": "Inherit the Earth - Quest for the Orb.zip"
-  },
-  {
-    "title": "Kathy Rain.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Kathy%20Rain.zip",
-    "size": "347.4M",
-    "filename": "Kathy Rain.zip"
-  },
-  {
-    "title": "Laura Bow 2, The Dagger of Amon Ra.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Laura%20Bow%202%2C%20The%20Dagger%20of%20Amon%20Ra.zip",
-    "size": "216.0M",
-    "filename": "Laura Bow 2, The Dagger of Amon Ra.zip"
-  },
-  {
-    "title": "Laura Bow, The Colonel's Bequest.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Laura%20Bow%2C%20The%20Colonel%27s%20Bequest.zip",
-    "size": "3.7M",
-    "filename": "Laura Bow, The Colonel's Bequest.zip"
-  },
-  {
-    "title": "Leisure Suit Larry 3 - Passionate Patti in Pursuit of the Pulsating Pectorals.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Leisure%20Suit%20Larry%203%20-%20Passionate%20Patti%20in%20Pursuit%20of%20the%20Pulsating%20Pectorals.zip",
-    "size": "4.4M",
-    "filename": "Leisure Suit Larry 3 - Passionate Patti in Pursuit of the Pulsating Pectorals.zip"
-  },
-  {
-    "title": "Leisure Suit Larry 5 - Passionate Patti Does a Little Undercover Work.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Leisure%20Suit%20Larry%205%20-%20Passionate%20Patti%20Does%20a%20Little%20Undercover%20Work.zip",
-    "size": "8.5M",
-    "filename": "Leisure Suit Larry 5 - Passionate Patti Does a Little Undercover Work.zip"
-  },
-  {
-    "title": "Leisure Suit Larry 6 - Shape up or Slip Out.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Leisure%20Suit%20Larry%206%20-%20Shape%20up%20or%20Slip%20Out.zip",
-    "size": "424.4M",
-    "filename": "Leisure Suit Larry 6 - Shape up or Slip Out.zip"
-  },
-  {
-    "title": "Leisure Suit Larry 7 - Love for Sail.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Leisure%20Suit%20Larry%207%20-%20Love%20for%20Sail.zip",
-    "size": "483.2M",
-    "filename": "Leisure Suit Larry 7 - Love for Sail.zip"
-  },
-  {
-    "title": "Leisure Suit Larry Goes Looking for Love (In Several Wrong Places).zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Leisure%20Suit%20Larry%20Goes%20Looking%20for%20Love%20%28In%20Several%20Wrong%20Places%29.zip",
-    "size": "2.2M",
-    "filename": "Leisure Suit Larry Goes Looking for Love (In Several Wrong Places).zip"
-  },
-  {
-    "title": "Leisure Suit Larry in the Land of the Lounge Lizards.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Leisure%20Suit%20Larry%20in%20the%20Land%20of%20the%20Lounge%20Lizards.zip",
-    "size": "3.8M",
-    "filename": "Leisure Suit Larry in the Land of the Lounge Lizards.zip"
-  },
-  {
-    "title": "Lighthouse - Las Fuerzas de las Tinieblas.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Lighthouse%20-%20Las%20Fuerzas%20de%20las%20Tinieblas.zip",
-    "size": "794.7M",
-    "filename": "Lighthouse - Las Fuerzas de las Tinieblas.zip"
-  },
-  {
-    "title": "Loom.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Loom.zip",
-    "size": "39.2M",
-    "filename": "Loom.zip"
-  },
-  {
-    "title": "Los Archivos Secretos de Sherlock Holmes - El Caso del Escalpelo Mellado.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Los%20Archivos%20Secretos%20de%20Sherlock%20Holmes%20-%20El%20Caso%20del%20Escalpelo%20Mellado.zip",
-    "size": "7.1M",
-    "filename": "Los Archivos Secretos de Sherlock Holmes - El Caso del Escalpelo Mellado.zip"
-  },
-  {
-    "title": "Los Archivos secretos de Sherlock Holmes - El caso de la Rosa tatuada.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Los%20Archivos%20secretos%20de%20Sherlock%20Holmes%20-%20El%20caso%20de%20la%20Rosa%20tatuada.zip",
-    "size": "404.0M",
-    "filename": "Los Archivos secretos de Sherlock Holmes - El caso de la Rosa tatuada.zip"
-  },
-  {
-    "title": "Lost in Time.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Lost%20in%20Time.zip",
-    "size": "34.6M",
-    "filename": "Lost in Time.zip"
-  },
-  {
-    "title": "Maniac Mansion 2 El Dia del Tentaculo.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Maniac%20Mansion%202%20El%20Dia%20del%20Tentaculo.zip",
-    "size": "7.7M",
-    "filename": "Maniac Mansion 2 El Dia del Tentaculo.zip"
-  },
-  {
-    "title": "Maniac Mansion.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Maniac%20Mansion.zip",
-    "size": "328.3K",
-    "filename": "Maniac Mansion.zip"
-  },
-  {
-    "title": "Monkey Island 2 LeChuck's Revenge.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Monkey%20Island%202%20LeChuck%27s%20Revenge.zip",
-    "size": "115.4M",
-    "filename": "Monkey Island 2 LeChuck's Revenge.zip"
-  },
-  {
-    "title": "Pantera Rosa Abracadabra Rosa.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Pantera%20Rosa%20Abracadabra%20Rosa.zip",
-    "size": "247.7M",
-    "filename": "Pantera Rosa Abracadabra Rosa.zip"
-  },
-  {
-    "title": "Pantera Rosa Passport to Peril.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Pantera%20Rosa%20Passport%20to%20Peril.zip",
-    "size": "298.8M",
-    "filename": "Pantera Rosa Passport to Peril.zip"
-  },
-  {
-    "title": "Rex Nebular and the Cosmic Gender Bender.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Rex%20Nebular%20and%20the%20Cosmic%20Gender%20Bender.zip",
-    "size": "22.0M",
-    "filename": "Rex Nebular and the Cosmic Gender Bender.zip"
-  },
-  {
-    "title": "Sam and Max Hit the Road.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Sam%20and%20Max%20Hit%20the%20Road.zip",
-    "size": "104.7M",
-    "filename": "Sam and Max Hit the Road.zip"
-  },
-  {
-    "title": "Simon the Sorcerer.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Simon%20the%20Sorcerer.zip",
-    "size": "177.5M",
-    "filename": "Simon the Sorcerer.zip"
-  },
-  {
-    "title": "Space Quest Incinerations.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Space%20Quest%20Incinerations.zip",
-    "size": "767.5M",
-    "filename": "Space Quest Incinerations.zip"
-  },
-  {
-    "title": "Technobabylon.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Technobabylon.zip",
-    "size": "1.1G",
-    "filename": "Technobabylon.zip"
-  },
-  {
-    "title": "The Castle of Doctor Brain.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/The%20Castle%20of%20Doctor%20Brain.zip",
-    "size": "4.3M",
-    "filename": "The Castle of Doctor Brain.zip"
-  },
-  {
-    "title": "The Curse of Monkey Island.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/The%20Curse%20of%20Monkey%20Island.zip",
-    "size": "833.1M",
-    "filename": "The Curse of Monkey Island.zip"
-  },
-  {
-    "title": "The Dig.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/The%20Dig.zip",
-    "size": "464.0M",
-    "filename": "The Dig.zip"
-  },
-  {
-    "title": "The Longest Journey.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/The%20Longest%20Journey.zip",
-    "size": "1.6G",
-    "filename": "The Longest Journey.zip"
-  },
-  {
-    "title": "The Neverhood.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/The%20Neverhood.zip",
-    "size": "594.5M",
-    "filename": "The Neverhood.zip"
-  },
-  {
-    "title": "The Secret of Monkey Island.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/The%20Secret%20of%20Monkey%20Island.zip",
-    "size": "122.5M",
-    "filename": "The Secret of Monkey Island.zip"
-  },
-  {
-    "title": "Toonstruck.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Toonstruck.zip",
-    "size": "874.4M",
-    "filename": "Toonstruck.zip"
-  },
-  {
-    "title": "Touche Las Aventuras del Quinto Mosquetero.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Touche%20Las%20Aventuras%20del%20Quinto%20Mosquetero.zip",
-    "size": "188.0M",
-    "filename": "Touche Las Aventuras del Quinto Mosquetero.zip"
-  },
-  {
-    "title": "UFOs.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/UFOs.zip",
-    "size": "353.0M",
-    "filename": "UFOs.zip"
-  },
-  {
-    "title": "Urban Runner.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Urban%20Runner.zip",
-    "size": "1.5G",
-    "filename": "Urban Runner.zip"
-  },
-  {
-    "title": "Ween - The Prophecy.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Ween%20-%20The%20Prophecy.zip",
-    "size": "6.0M",
-    "filename": "Ween - The Prophecy.zip"
-  },
-  {
-    "title": "Wetlands.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Wetlands.zip",
-    "size": "460.7M",
-    "filename": "Wetlands.zip"
-  },
-  {
-    "title": "Whispers of a Machine.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Whispers%20of%20a%20Machine.zip",
-    "size": "4.0G",
-    "filename": "Whispers of a Machine.zip"
-  },
-  {
-    "title": "Woodruff and the Schnibble of Azimuth.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Woodruff%20and%20the%20Schnibble%20of%20Azimuth.zip",
-    "size": "194.7M",
-    "filename": "Woodruff and the Schnibble of Azimuth.zip"
-  },
-  {
-    "title": "Yonkey Island 1.0 (Charnego Translations).zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Yonkey%20Island%201.0%20%28Charnego%20Translations%29.zip",
-    "size": "90.2M",
-    "filename": "Yonkey Island 1.0 (Charnego Translations).zip"
-  },
-  {
-    "title": "Zak Mckracken and the Alien Mindbenders.zip",
-    "target": "/download/mini-romset-scummvm-espanol-42-juegos/Zak%20Mckracken%20and%20the%20Alien%20Mindbenders.zip",
-    "size": "313.5M",
-    "filename": "Zak Mckracken and the Alien Mindbenders.zip"
-  }
-]
+{
+  "basePath": "/data/games/scummvm",
+  "zipPath": "/data/games/scummvm/zips",
+  "games": [
+    {
+      "id": "007_james_bond_stealth_affair",
+      "name": "007 James Bond - The Stealth Affair",
+      "zip": "007 James Bond - The Stealth Affair.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/007%20James%20Bond%20-%20The%20Stealth%20Affair.zip",
+      "folder": "007_james_bond_stealth_affair",
+      "imageSrc": "https://static.wikia.nocookie.net/jamesbond/images/c/cb/James_Bond_007_-_The_Stealth_Affair%2C_manual_art_%28b%29.png",
+      "image": "assets/scummvm/007_james_bond_stealth_affair.png",
+      "description": "Conocido como 'Operation Stealth'. Una aventura de espionaje donde Bond (o John Glames) debe recuperar un avión furtivo robado en una trama de intriga internacional."
+    },
+    {
+      "id": "amazon_guardians_of_eden",
+      "name": "Amazon: Guardians of Eden",
+      "zip": "Amazon - Guardians of Eden.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Amazon%20-%20Guardians%20of%20Eden.zip",
+      "folder": "amazon_guardians_of_eden",
+      "imageSrc": "https://www.insertcoinclasicos.com/wp-content/uploads/2014/09/amazon.jpg",
+      "image": "assets/scummvm/amazon_guardians_of_eden.png",
+      "description": "Homenaje a la serie B de los 50. Adéntrate en el Amazonas para salvar a tu hermano y evitar que los nazis consigan unas esmeraldas con poderes."
+    },
+    {
+      "id": "beavis_and_butt_head_virtual_stupidity",
+      "name": "Beavis and Butt-head in Virtual Stupidity",
+      "zip": "Beavis and Butt-head in Virtual Stupidity.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Beavis%20and%20Butt-head%20in%20Virtual%20Stupidity.zip",
+      "folder": "beavis_and_butt_head_virtual_stupidity",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Beavis%20and%20Butt-Head%20in%20Virtual%20Stupidity.png",
+      "image": "assets/scummvm/beavis_and_butt_head_virtual_stupidity.png",
+      "description": "Controla al dúo más estúpido de la MTV mientras intentan unirse a la banda de Todd, resolviendo puzles absurdos y jugando minijuegos escatológicos."
+    },
+    {
+      "id": "beneath_a_steel_sky",
+      "name": "Beneath a Steel Sky",
+      "zip": "Beneath a Steel Sky.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Beneath%20a%20Steel%20Sky.zip",
+      "folder": "beneath_a_steel_sky",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Beneath%20a%20Steel%20Sky.png",
+      "image": "assets/scummvm/beneath_a_steel_sky.png",
+      "description": "Clásico cyberpunk distópico. Robert Foster y su robot Joey deben descubrir la verdad sobre la corrupción de Union City, una ciudad controlada por una IA."
+    },
+    {
+      "id": "blade_runner",
+      "name": "Blade Runner",
+      "zip": "Blade Runner.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Blade%20Runner.zip",
+      "folder": "blade_runner",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Blade%20Runner.png",
+      "image": "assets/scummvm/blade_runner.png",
+      "description": "Obra maestra de Westwood. Juegas como el detective Ray McCoy 'retirando' replicantes en una historia paralela a la película, con atmósfera voxel y múltiples finales."
+    },
+    {
+      "id": "broken_sword_1",
+      "name": "Broken Sword: La leyenda de los templarios",
+      "zip": "Broken Sword 1 La leyenda de los templarios.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Broken%20Sword%201%20La%20leyenda%20de%20los%20templarios.zip",
+      "folder": "broken_sword_1",
+      "imageSrc": "https://www.insertcoinclasicos.com/wp-content/uploads/2014/09/broken-sword.jpg",
+      "image": "assets/scummvm/broken_sword_1.png",
+      "description": "George Stobbart y Nico Collard se ven envueltos en una conspiración milenaria relacionada con los Caballeros Templarios tras un atentado en París."
+    },
+    {
+      "id": "broken_sword_2",
+      "name": "Broken Sword II: Las fuerzas del mal",
+      "zip": "Broken Sword 2 Las fuerzas del mal.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Broken%20Sword%202%20Las%20fuerzas%20del%20mal.zip",
+      "folder": "broken_sword_2",
+      "imageSrc": "https://www.insertcoinclasicos.com/wp-content/uploads/2024/09/4727452-broken-sword-the-smoking-mirror-windows-front-cover.jpg",
+      "image": "assets/scummvm/broken_sword_2.png",
+      "description": "George y Nico regresan en una aventura que involucra a un dios maya, un eclipse solar y traficantes de drogas. Mantiene el humor y arte del original."
+    },
+    {
+      "id": "bud_tucker_in_double_trouble",
+      "name": "Bud Tucker in Double Trouble",
+      "zip": "Bud Tucker in Double Trouble.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Bud%20Tucker%20in%20Double%20Trouble.zip",
+      "folder": "bud_tucker_in_double_trouble",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Bud%20Tucker%20in%20Double%20Trouble.png",
+      "image": "assets/scummvm/bud_tucker_in_double_trouble.png",
+      "description": "Comedia disparatada donde un repartidor de pizzas debe salvar al mundo de un científico loco que quiere repoblar la Tierra con clones de calabaza."
+    },
+    {
+      "id": "code_name_iceman",
+      "name": "Code-Name: ICEMAN",
+      "zip": "Code-Name, ICEMAN.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Code-Name%2C%20ICEMAN.zip",
+      "folder": "code_name_iceman",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/en/8/81/Codename-Iceman-box-cover.jpg",
+      "image": "assets/scummvm/code_name_iceman.png",
+      "description": "Thriller tecnológico de Sierra. Mezcla aventura gráfica con simulador de submarinos mientras intentas rescatar a un embajador estadounidense secuestrado."
+    },
+    {
+      "id": "discworld_1",
+      "name": "Discworld",
+      "zip": "Discworld 1.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Discworld%201.zip",
+      "folder": "discworld_1",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Discworld.png",
+      "image": "assets/scummvm/discworld_1.png",
+      "description": "Basado en Terry Pratchett. El mago Rincewind debe detener a un dragón que aterroriza Ankh-Morpork. Famoso por su dificultad y humor absurdo."
+    },
+    {
+      "id": "discworld_2",
+      "name": "Discworld II: Missing Presumed...!? ",
+      "zip": "Discworld 2.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Discworld%202.zip",
+      "folder": "discworld_2",
+      "imageSrc": "https://m.media-amazon.com/images/I/61M4kLWyoGL.jpg",
+      "image": "assets/scummvm/discworld_2.png",
+      "description": "La Muerte ha desaparecido y Rincewind debe encontrarla. Gráficos estilo dibujos animados y el humor característico del Mundodisco."
+    },
+    {
+      "id": "dreamweb",
+      "name": "DreamWeb",
+      "zip": "DreamWeb.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/DreamWeb.zip",
+      "folder": "dreamweb",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/DreamWeb.png",
+      "image": "assets/scummvm/dreamweb.png",
+      "description": "Aventura cyberpunk oscura y violenta con vista cenital. Ryan cree que debe asesinar a siete personas para salvar la 'Dreamweb' y evitar el colapso del universo."
+    },
+    {
+      "id": "ecoquest_1",
+      "name": "EcoQuest: The Search for Cetus",
+      "zip": "EcoQuest - The Search for Cetus.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/EcoQuest%20-%20The%20Search%20for%20Cetus.zip",
+      "folder": "ecoquest_1",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/SierraOnLine-Box-EcoQuest.jpg/500px-SierraOnLine-Box-EcoQuest.jpg",
+      "image": "assets/scummvm/ecoquest_1.png",
+      "description": "Juego educativo de Sierra. Adam y su delfín parlante viajan al reino submarino para rescatar a la ballena rey, Cetus, aprendiendo sobre conservación marina."
+    },
+    {
+      "id": "ecoquest_2",
+      "name": "EcoQuest 2: Lost Secret of the Rainforest",
+      "zip": "EcoQuest 2 - El Secreto Perdido de la Selva Amazonica.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/EcoQuest%202%20-%20El%20Secreto%20Perdido%20de%20la%20Selva%20Amazonica.zip",
+      "folder": "ecoquest_2",
+      "imageSrc": "https://images.gog.com/ab3461efc39758176f1c307a5dcca71b03d47ee03b7588ca6d17bfe534fc60be_glx_vertical_cover.webp",
+      "image": "assets/scummvm/ecoquest_2.png",
+      "description": "Adam viaja al Amazonas para ayudar a las tribus locales y descubrir el secreto del bosque, enfrentándose a peligros ecológicos."
+    },
+    {
+      "id": "fascination",
+      "name": "Fascination",
+      "zip": "Fascination.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Fascination.zip",
+      "folder": "fascination",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Fascination.png",
+      "image": "assets/scummvm/fascination.png",
+      "description": "Thriller erótico francés. Doralice presencia un asesinato y recibe un maletín secreto, huyendo de asesinos en una trama de suspense adulto."
+    },
+    {
+      "id": "flight_of_the_amazon_queen",
+      "name": "Flight of the Amazon Queen",
+      "zip": "Flight of the Amazon Queen.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Flight%20of%20the%20Amazon%20Queen.zip",
+      "folder": "flight_of_the_amazon_queen",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Flight%20of%20the%20Amazon%20Queen.png",
+      "image": "assets/scummvm/flight_of_the_amazon_queen.png",
+      "description": "El piloto Joe King se estrella en el Amazonas y debe detener a un científico loco que planea convertir a las amazonas en dinosaurios mutantes."
+    },
+    {
+      "id": "freddy_pharkas",
+      "name": "Freddy Pharkas: Frontier Pharmacist",
+      "zip": "Freddy Pharkas - Farmaceutico de la Frontera.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Freddy%20Pharkas%20-%20Farmaceutico%20de%20la%20Frontera.zip",
+      "folder": "freddy_pharkas",
+      "imageSrc": "https://www.insertcoinclasicos.com/wp-content/uploads/2014/09/Freddypharkas5.jpg",
+      "image": "assets/scummvm/freddy_pharkas.png",
+      "description": "Comedia del oeste de Al Lowe. Freddy, un farmacéutico con pasado de pistolero, debe salvar su pueblo de una serie de plagas extrañas."
+    },
+    {
+      "id": "full_pipe",
+      "name": "Full Pipe",
+      "zip": "Full Pipe.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Full%20Pipe.zip",
+      "folder": "full_pipe",
+      "imageSrc": "https://images.pcgamingwiki.com/8/82/Full_Pipe_-_cover.jpg",
+      "image": "assets/scummvm/full_pipe.png",
+      "description": "Surrealista aventura rusa. El protagonista cae por una tubería y explora un laberinto subterráneo lleno de criaturas bizarras y puzles lógicos."
+    },
+    {
+      "id": "full_throttle",
+      "name": "Full Throttle",
+      "zip": "Full Throttle.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Full%20Throttle.zip",
+      "folder": "full_throttle",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Full%20Throttle.png",
+      "image": "assets/scummvm/full_throttle.png",
+      "description": "Ben, líder de los moteros 'Polecats', es incriminado por asesinato. Heavy metal, asfalto y una historia legendaria de Tim Schafer."
+    },
+    {
+      "id": "hopkins_fbi",
+      "name": "Hopkins FBI",
+      "zip": "Hopkins FBI.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Hopkins%20FBI.zip",
+      "folder": "hopkins_fbi",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Hopkins%20FBI.png",
+      "image": "assets/scummvm/hopkins_fbi.png",
+      "description": "Aventura policial extremadamente cruda. El agente del FBI Hopkins persigue al criminal Bernie Berckson. Famosa por sus escenas sangrientas."
+    },
+    {
+      "id": "i_have_no_mouth",
+      "name": "I Have No Mouth, and I Must Scream",
+      "zip": "I Have No Mouth and I Must Scream.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/I%20Have%20No%20Mouth%20and%20I%20Must%20Scream.zip",
+      "folder": "i_have_no_mouth",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/I%20Have%20No%20Mouth%2C%20and%20I%20Must%20Scream.png",
+      "image": "assets/scummvm/i_have_no_mouth.png",
+      "description": "Terror psicológico. La supercomputadora AM tortura a los últimos 5 humanos. Debes enfrentar los miedos más profundos de cada personaje."
+    },
+    {
+      "id": "indiana_jones_fate_of_atlantis",
+      "name": "Indiana Jones and the Fate of Atlantis",
+      "zip": "Indiana Jones y el Destino de la Atlantida.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Indiana%20Jones%20y%20el%20Destino%20de%20la%20Atlantida.zip",
+      "folder": "indiana_jones_fate_of_atlantis",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Indiana%20Jones%20and%20the%20Fate%20of%20Atlantis.png",
+      "image": "assets/scummvm/indiana_jones_fate_of_atlantis.png",
+      "description": "Compite contra los nazis para encontrar la ciudad perdida de la Atlántida en una aventura con tres caminos distintos de resolución."
+    },
+    {
+      "id": "indiana_jones_last_crusade",
+      "name": "Indiana Jones and the Last Crusade",
+      "zip": "Indiana Jones y la Ultima Cruzada.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Indiana%20Jones%20y%20la%20Ultima%20Cruzada.zip",
+      "folder": "indiana_jones_last_crusade",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Indiana%20Jones%20and%20the%20Last%20Crusade.png",
+      "image": "assets/scummvm/indiana_jones_last_crusade.png",
+      "description": "Rescata a tu padre y encuentra el Santo Grial antes que los nazis, usando ingenio o puños en esta adaptación fiel de la película."
+    },
+    {
+      "id": "inherit_the_earth",
+      "name": "Inherit the Earth: Quest for the Orb",
+      "zip": "Inherit the Earth - Quest for the Orb.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Inherit%20the%20Earth%20-%20Quest%20for%20the%20Orb.zip",
+      "folder": "inherit_the_earth",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/en/3/31/Inherit_the_Earth_-_Quest_for_the_Orb_Coverart.png",
+      "image": "assets/scummvm/inherit_the_earth.png",
+      "description": "En un futuro gobernado por animales antropomórficos, el zorro Rif es acusado falsamente de robar un orbe legendario y debe limpiar su nombre."
+    },
+    {
+      "id": "kathy_rain",
+      "name": "Kathy Rain",
+      "zip": "Kathy Rain.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Kathy%20Rain.zip",
+      "folder": "kathy_rain",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/en/b/b5/Kathy_Rain_cover.jpg",
+      "image": "assets/scummvm/kathy_rain.png",
+      "description": "Aventura moderna pixel-art. Kathy, una estudiante de periodismo, regresa a su pueblo para investigar la misteriosa muerte de su abuelo en los 90."
+    },
+    {
+      "id": "laura_bow_2",
+      "name": "Laura Bow 2: The Dagger of Amon Ra",
+      "zip": "Laura Bow 2, The Dagger of Amon Ra.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Laura%20Bow%202%2C%20The%20Dagger%20of%20Amon%20Ra.zip",
+      "folder": "laura_bow_2",
+      "imageSrc": "http://aventuraoriginal.com/media/covers/658_Front.jpg",
+      "image": "assets/scummvm/laura_bow_2.png",
+      "description": "Ambientada en los años 20. Laura Bow se ve envuelta en un asesinato durante una fiesta en un museo egipcio. Misterio clásico."
+    },
+    {
+      "id": "laura_bow_1",
+      "name": "The Colonel's Bequest",
+      "zip": "Laura Bow, The Colonel's Bequest.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Laura%20Bow%2C%20The%20Colonel%27s%20Bequest.zip",
+      "folder": "laura_bow_1",
+      "imageSrc": "https://www.insertcoinclasicos.com/wp-content/uploads/2014/09/lauracover.jpg",
+      "image": "assets/scummvm/laura_bow_1.png",
+      "description": "Misterio al estilo Agatha Christie en una mansión aislada donde los invitados mueren uno a uno. El tiempo avanza y debes observar para sobrevivir."
+    },
+    {
+      "id": "leisure_suit_larry_3",
+      "name": "Leisure Suit Larry 3",
+      "zip": "Leisure Suit Larry 3 - Passionate Patti in Pursuit of the Pulsating Pectorals.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Leisure%20Suit%20Larry%203%20-%20Passionate%20Patti%20in%20Pursuit%20of%20the%20Pulsating%20Pectorals.zip",
+      "folder": "leisure_suit_larry_3",
+      "imageSrc": "http://aventuraoriginal.com/media/covers/20170328_181246_SnBVxew.png",
+      "image": "assets/scummvm/leisure_suit_larry_3.png",
+      "description": "Larry busca el amor en una isla tropical tras ser abandonado. Por primera vez, también controlas a Passionate Patti."
+    },
+    {
+      "id": "leisure_suit_larry_5",
+      "name": "Leisure Suit Larry 5",
+      "zip": "Leisure Suit Larry 5 - Passionate Patti Does a Little Undercover Work.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Leisure%20Suit%20Larry%205%20-%20Passionate%20Patti%20Does%20a%20Little%20Undercover%20Work.zip",
+      "folder": "leisure_suit_larry_5",
+      "imageSrc": "http://aventuraoriginal.com/media/covers/20170328_182148_f0ykkjW.png",
+      "image": "assets/scummvm/leisure_suit_larry_5.png",
+      "description": "Larry, con amnesia, trabaja en la industria del cine adulto, mientras Patti es espía del FBI. Se saltaron la parte 4 deliberadamente."
+    },
+    {
+      "id": "leisure_suit_larry_6",
+      "name": "Leisure Suit Larry 6",
+      "zip": "Leisure Suit Larry 6 - Shape up or Slip Out.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Leisure%20Suit%20Larry%206%20-%20Shape%20up%20or%20Slip%20Out.zip",
+      "folder": "leisure_suit_larry_6",
+      "imageSrc": "http://aventuraoriginal.com/media/covers/20170328_182541_ibbykio.png",
+      "image": "assets/scummvm/leisure_suit_larry_6.png",
+      "description": "Larry gana unas vacaciones en un spa de lujo e intenta seducir a las diversas huéspedes sin acabar humillado, como es costumbre."
+    },
+    {
+      "id": "leisure_suit_larry_7",
+      "name": "Leisure Suit Larry 7: Love for Sail",
+      "zip": "Leisure Suit Larry 7 - Love for Sail.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Leisure%20Suit%20Larry%207%20-%20Love%20for%20Sail.zip",
+      "folder": "leisure_suit_larry_7",
+      "imageSrc": "http://aventuraoriginal.com/media/covers/larrycover.jpg",
+      "image": "assets/scummvm/leisure_suit_larry_7.png",
+      "description": "Última aventura clásica, con gráficos estilo cartoon. Larry se embarca en un crucero lleno de celebridades y situaciones picantes."
+    },
+    {
+      "id": "leisure_suit_larry_2",
+      "name": "Leisure Suit Larry 2",
+      "zip": "Leisure Suit Larry Goes Looking for Love (In Several Wrong Places).zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Leisure%20Suit%20Larry%20Goes%20Looking%20for%20Love%20%28In%20Several%20Wrong%20Places%29.zip",
+      "folder": "leisure_suit_larry_2",
+      "imageSrc": "http://aventuraoriginal.com/media/covers/916-leisure-suit-larry-goes-looking-for-love-in-several-wrong-places-dos-front-cover.jpg",
+      "image": "assets/scummvm/leisure_suit_larry_2.png",
+      "description": "Larry gana la lotería y un viaje en crucero, pero termina perseguido por la KGB y científicos locos en una aventura global."
+    },
+    {
+      "id": "leisure_suit_larry_1",
+      "name": "Leisure Suit Larry 1",
+      "zip": "Leisure Suit Larry in the Land of the Lounge Lizards.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Leisure%20Suit%20Larry%20in%20the%20Land%20of%20the%20Lounge%20Lizards.zip",
+      "folder": "leisure_suit_larry_1",
+      "imageSrc": "http://aventuraoriginal.com/media/covers/larry1agi.jpeg",
+      "image": "assets/scummvm/leisure_suit_larry_1.png",
+      "description": "El clásico original. Larry Laffer viaja a la ciudad de Lost Wages con el único objetivo de encontrar el amor verdadero antes del amanecer."
+    },
+    {
+      "id": "lighthouse",
+      "name": "Lighthouse: The Dark Being",
+      "zip": "Lighthouse - Las Fuerzas de las Tinieblas.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Lighthouse%20-%20Las%20Fuerzas%20de%20las%20Tinieblas.zip",
+      "folder": "lighthouse",
+      "imageSrc": "http://aventuraoriginal.com/media/covers/20170328_183411_z5SKU4u.png",
+      "image": "assets/scummvm/lighthouse.png",
+      "description": "Aventura de terror y ciencia ficción estilo Myst. Viaja a un mundo paralelo mecánico para rescatar a un bebé secuestrado por una entidad oscura."
+    },
+    {
+      "id": "loom",
+      "name": "Loom",
+      "zip": "Loom.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Loom.zip",
+      "folder": "loom",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Loom.png",
+      "image": "assets/scummvm/loom.png",
+      "description": "Obra maestra de fantasía de LucasArts. Bobbin Threadbare debe salvar al Gremio de los Tejedores usando distonios musicales para lanzar hechizos."
+    },
+    {
+      "id": "sherlock_holmes_serrated_scalpel",
+      "name": "Sherlock Holmes: El Caso del Escalpelo Mellado",
+      "zip": "Los Archivos Secretos de Sherlock Holmes - El Caso del Escalpelo Mellado.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Los%20Archivos%20Secretos%20de%20Sherlock%20Holmes%20-%20El%20Caso%20del%20Escalpelo%20Mellado.zip",
+      "folder": "sherlock_holmes_serrated_scalpel",
+      "imageSrc": "https://www.insertcoinclasicos.com/wp-content/uploads/2014/09/sherlock-holmes-cover.jpg",
+      "image": "assets/scummvm/sherlock_holmes_serrated_scalpel.png",
+      "description": "Holmes y Watson investigan el asesinato de una actriz que parece obra de Jack el Destripador. Una de las mejores adaptaciones del detective."
+    },
+    {
+      "id": "sherlock_holmes_rose_tattoo",
+      "name": "Sherlock Holmes: El caso de la Rosa tatuada",
+      "zip": "Los Archivos secretos de Sherlock Holmes - El caso de la Rosa tatuada.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Los%20Archivos%20secretos%20de%20Sherlock%20Holmes%20-%20El%20caso%20de%20la%20Rosa%20tatuada.zip",
+      "folder": "sherlock_holmes_rose_tattoo",
+      "imageSrc": "https://www.insertcoinclasicos.com/wp-content/uploads/2025/05/Rosa-Tatuada-Cover.jpg",
+      "image": "assets/scummvm/sherlock_holmes_rose_tattoo.png",
+      "description": "Secuela con gráficos digitalizados. Una explosión hiere a Mycroft, llevando a Sherlock a una investigación de espionaje y corrupción real."
+    },
+    {
+      "id": "lost_in_time",
+      "name": "Lost in Time",
+      "zip": "Lost in Time.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Lost%20in%20Time.zip",
+      "folder": "lost_in_time",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Lost%20in%20Time.png",
+      "image": "assets/scummvm/lost_in_time.png",
+      "description": "Una mujer explora un naufragio de 1840 y termina viajando en el tiempo. Aventura FMV temprana de Coktel Vision con puzles desafiantes."
+    },
+    {
+      "id": "day_of_the_tentacle",
+      "name": "Day of the Tentacle",
+      "zip": "Maniac Mansion 2 El Dia del Tentaculo.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Maniac%20Mansion%202%20El%20Dia%20del%20Tentaculo.zip",
+      "folder": "day_of_the_tentacle",
+      "imageSrc": "https://www.insertcoinclasicos.com/wp-content/uploads/2014/09/250px-Day-of-the-tentacle-cover-art.jpg",
+      "image": "assets/scummvm/day_of_the_tentacle.png",
+      "description": "Bernard, Hoagie y Laverne viajan por el tiempo para evitar que el Tentáculo Púrpura conquiste el mundo. La cima del humor gráfico."
+    },
+    {
+      "id": "maniac_mansion",
+      "name": "Maniac Mansion",
+      "zip": "Maniac Mansion.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Maniac%20Mansion.zip",
+      "folder": "maniac_mansion",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Maniac%20Mansion.png",
+      "image": "assets/scummvm/maniac_mansion.png",
+      "description": "El origen de SCUMM. Dave y sus amigos entran en la mansión Edison para rescatar a Sandy. Múltiples personajes y finales posibles."
+    },
+    {
+      "id": "monkey_island_2",
+      "name": "Monkey Island 2: LeChuck's Revenge",
+      "zip": "Monkey Island 2 LeChuck's Revenge.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Monkey%20Island%202%20LeChuck%27s%20Revenge.zip",
+      "folder": "monkey_island_2",
+      "imageSrc": "http://aventuraoriginal.com/media/covers/20170328_175153_qGs0gbV.png",
+      "image": "assets/scummvm/monkey_island_2.png",
+      "description": "Guybrush Threepwood busca el tesoro legendario 'Big Whoop', perseguido por el zombi LeChuck. Una secuela más grande, oscura y compleja."
+    },
+    {
+      "id": "pantera_rosa_hocus_pocus",
+      "name": "La Pantera Rosa: Abracadabra Rosa",
+      "zip": "Pantera Rosa Abracadabra Rosa.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Pantera%20Rosa%20Abracadabra%20Rosa.zip",
+      "folder": "pantera_rosa_hocus_pocus",
+      "imageSrc": "http://aventuraoriginal.com/media/covers/pantera.jpeg",
+      "image": "assets/scummvm/pantera_rosa_hocus_pocus.png",
+      "description": "La Pantera aprende magia y viaja a través de la historia para escapar de un conejo mago. Aventura educativa y divertida."
+    },
+    {
+      "id": "pantera_rosa_passport_to_peril",
+      "name": "La Pantera Rosa: Misión Peligrosa",
+      "zip": "Pantera Rosa Passport to Peril.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Pantera%20Rosa%20Passport%20to%20Peril.zip",
+      "folder": "pantera_rosa_passport_to_peril",
+      "imageSrc": "https://www.doblajevideojuegos.es/portadas/portada_la-pantera-rosa-mision-peligrosa.jpg",
+      "image": "assets/scummvm/pantera_rosa_passport_to_peril.png",
+      "description": "La Pantera es enviada al campamento ChillyWawa para proteger a niños genios, resolviendo misterios en una aventura point-and-click clásica."
+    },
+    {
+      "id": "rex_nebular",
+      "name": "Rex Nebular and the Cosmic Gender Bender",
+      "zip": "Rex Nebular and the Cosmic Gender Bender.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Rex%20Nebular%20and%20the%20Cosmic%20Gender%20Bender.zip",
+      "folder": "rex_nebular",
+      "imageSrc": "http://aventuraoriginal.com/media/covers/IMG_0143.jpg",
+      "image": "assets/scummvm/rex_nebular.png",
+      "description": "Rex Nebular se estrella en un planeta habitado solo por mujeres que eliminaron a los hombres. Humor irreverente de MicroProse."
+    },
+    {
+      "id": "sam_and_max",
+      "name": "Sam & Max Hit the Road",
+      "zip": "Sam and Max Hit the Road.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Sam%20and%20Max%20Hit%20the%20Road.zip",
+      "folder": "sam_and_max",
+      "imageSrc": "http://aventuraoriginal.com/media/covers/sam.jpg",
+      "image": "assets/scummvm/sam_and_max.png",
+      "description": "Un perro y un conejo psicópata (Policía Freelance) recorren las atracciones turísticas de EE.UU. buscando un pies grandes congelado."
+    },
+    {
+      "id": "simon_the_sorcerer",
+      "name": "Simon the Sorcerer",
+      "zip": "Simon the Sorcerer.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Simon%20the%20Sorcerer.zip",
+      "folder": "simon_the_sorcerer",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Simon%20the%20Sorcerer.png",
+      "image": "assets/scummvm/simon_the_sorcerer.png",
+      "description": "Simon, un adolescente sarcástico, es transportado a un mundo de fantasía lleno de clichés. Debe rescatar al mago Calypso del malvado Sordid."
+    },
+    {
+      "id": "space_quest_incinerations",
+      "name": "Space Quest: Incinerations",
+      "zip": "Space Quest Incinerations.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Space%20Quest%20Incinerations.zip",
+      "folder": "space_quest_incinerations",
+      "imageSrc": "https://static.wikia.nocookie.net/spacequest/images/a/ab/SQInc_Poster_169.jpg",
+      "image": "assets/scummvm/space_quest_incinerations.png",
+      "description": "Aclamado juego fan-made de Roger Wilco. Ofrece una historia más cinematográfica y oscura, con gráficos 3D prerrenderizados."
+    },
+    {
+      "id": "technobabylon",
+      "name": "Technobabylon",
+      "zip": "Technobabylon.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Technobabylon.zip",
+      "folder": "technobabylon",
+      "imageSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22wd.webp",
+      "image": "assets/scummvm/technobabylon.png",
+      "description": "Cyberpunk moderno. En el año 2087, tres personajes entrelazan sus destinos enfrentándose a una conspiración de IA y control mental."
+    },
+    {
+      "id": "castle_of_doctor_brain",
+      "name": "The Castle of Doctor Brain",
+      "zip": "The Castle of Doctor Brain.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/The%20Castle%20of%20Doctor%20Brain.zip",
+      "folder": "castle_of_doctor_brain",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Castle%20of%20Dr.%20Brain.png",
+      "image": "assets/scummvm/castle_of_doctor_brain.png",
+      "description": "Puzles educativos de Sierra. Supera retos de lógica, matemáticas y ciencia para convertirte en el asistente del excéntrico Dr. Brain."
+    },
+    {
+      "id": "curse_of_monkey_island",
+      "name": "The Curse of Monkey Island",
+      "zip": "The Curse of Monkey Island.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/The%20Curse%20of%20Monkey%20Island.zip",
+      "folder": "curse_of_monkey_island",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Curse%20of%20Monkey%20Island%2C%20The.png",
+      "image": "assets/scummvm/curse_of_monkey_island.png",
+      "description": "Tercera entrega con animación tradicional. Guybrush convierte a Elaine en una estatua de oro y debe romper la maldición."
+    },
+    {
+      "id": "the_dig",
+      "name": "The Dig",
+      "zip": "The Dig.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/The%20Dig.zip",
+      "folder": "the_dig",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Dig%2C%20The.png",
+      "image": "assets/scummvm/the_dig.png",
+      "description": "Ciencia ficción escrita con Spielberg. Astronautas son transportados a un planeta alienígena desierto y deben descifrar su tecnología para volver."
+    },
+    {
+      "id": "the_longest_journey",
+      "name": "The Longest Journey",
+      "zip": "The Longest Journey.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/The%20Longest%20Journey.zip",
+      "folder": "the_longest_journey",
+      "imageSrc": "http://aventuraoriginal.com/media/covers/caja-the-longest-journey_0z2EK66.jpg",
+      "image": "assets/scummvm/the_longest_journey.png",
+      "description": "April Ryan descubre que puede viajar entre dos mundos paralelos: Stark (ciencia) y Arcadia (magia). Una historia épica y profunda."
+    },
+    {
+      "id": "the_neverhood",
+      "name": "The Neverhood",
+      "zip": "The Neverhood.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/The%20Neverhood.zip",
+      "folder": "the_neverhood",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Neverhood%2C%20The.png",
+      "image": "assets/scummvm/the_neverhood.png",
+      "description": "Mundo hecho de plastilina (Claymation). Controlas a Klaymen en un entorno surrealista lleno de puzles creativos y humor visual."
+    },
+    {
+      "id": "secret_of_monkey_island",
+      "name": "The Secret of Monkey Island",
+      "zip": "The Secret of Monkey Island.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/The%20Secret%20of%20Monkey%20Island.zip",
+      "folder": "secret_of_monkey_island",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Secret%20of%20Monkey%20Island%2C%20The.png",
+      "image": "assets/scummvm/secret_of_monkey_island.png",
+      "description": "El comienzo de la leyenda. Guybrush Threepwood llega a Mêlée Island para ser pirata. Duelos de insultos, grog y el Pirata Fantasma LeChuck."
+    },
+    {
+      "id": "toonstruck",
+      "name": "Toonstruck",
+      "zip": "Toonstruck.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Toonstruck.zip",
+      "folder": "toonstruck",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Toonstruck.png",
+      "image": "assets/scummvm/toonstruck.png",
+      "description": "Christopher Lloyd es un dibujante absorbido por su propio mundo de dibujos animados. Debe ayudar a los 'toon' buenos contra el Conde Nefarious."
+    },
+    {
+      "id": "touche_adventures",
+      "name": "Touché: The Adventures of the Fifth Musketeer",
+      "zip": "Touche Las Aventuras del Quinto Mosquetero.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Touche%20Las%20Aventuras%20del%20Quinto%20Mosquetero.zip",
+      "folder": "touche_adventures",
+      "imageSrc": "https://upload.wikimedia.org/wikipedia/en/7/76/ToucheTheAdventuresOfTheFifthMusketeer_cover.png",
+      "image": "assets/scummvm/touche_adventures.png",
+      "description": "Geoffroi Le Brun quiere ser mosquetero en una Francia histórica llena de humor anacrónico. Una joya oculta con excelentes gráficos."
+    },
+    {
+      "id": "ufos",
+      "name": "UFOs",
+      "zip": "UFOs.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/UFOs.zip",
+      "folder": "ufos",
+      "imageSrc": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTZ-sacB6rkvgLavOruMZe-UQizusC8dJ_S51BFRByvSwWSMAcAm4h3MDeSJrxPhVkgU20H7LJVkSPaecmUruMIEIiGzz4euR-ilTQNwJw86FMtFsLxo2jL7HDQxXs2E_2mDem2cNight3/s1600/UFOs.jpg",
+      "image": "assets/scummvm/ufos.png",
+      "description": "Un alienígena se estrella en una granja terrestre y debe reparar su nave evitando a los lugareños. Estilo visual de dibujos animados muy peculiar."
+    },
+    {
+      "id": "urban_runner",
+      "name": "Urban Runner",
+      "zip": "Urban Runner.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Urban%20Runner.zip",
+      "folder": "urban_runner",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Urban%20Runner.png",
+      "image": "assets/scummvm/urban_runner.png",
+      "description": "Thriller FMV. Eres un periodista incriminado por un asesinato que no cometió, huyendo por París mientras recolectas pistas."
+    },
+    {
+      "id": "ween_the_prophecy",
+      "name": "Ween: The Prophecy",
+      "zip": "Ween - The Prophecy.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Ween%20-%20The%20Prophecy.zip",
+      "folder": "ween_the_prophecy",
+      "imageSrc": "http://aventuraoriginal.com/media/covers/portada_del.jpg",
+      "image": "assets/scummvm/ween_the_prophecy.png",
+      "description": "Debes cumplir tres misiones para complacer a tu abuelo hechicero. Aventura en primera persona conocida por su dificultad."
+    },
+    {
+      "id": "wetlands",
+      "name": "Wetlands",
+      "zip": "Wetlands.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Wetlands.zip",
+      "folder": "wetlands",
+      "imageSrc": "https://thumbnails.pcgamingwiki.com/4/40/Wetlands_cover.jpg/450px-Wetlands_cover.jpg",
+      "image": "assets/scummvm/wetlands.png",
+      "description": "Shooter sobre raíles con mucha narrativa y estética de cómic oscuro. Ambientado en un mundo acuático futurista, Byrne busca venganza."
+    },
+    {
+      "id": "whispers_of_a_machine",
+      "name": "Whispers of a Machine",
+      "zip": "Whispers of a Machine.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Whispers%20of%20a%20Machine.zip",
+      "folder": "whispers_of_a_machine",
+      "imageSrc": "https://f4.bcbits.com/img/a2679595919_16.jpg",
+      "image": "assets/scummvm/whispers_of_a_machine.png",
+      "description": "Ciencia ficción nórdica 'noir'. La agente Vera Englund investiga asesinatos relacionados con una tecnología prohibida y una IA."
+    },
+    {
+      "id": "woodruff_and_the_schnibble",
+      "name": "Woodruff and the Schnibble of Azimuth",
+      "zip": "Woodruff and the Schnibble of Azimuth.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Woodruff%20and%20the%20Schnibble%20of%20Azimuth.zip",
+      "folder": "woodruff_and_the_schnibble",
+      "imageSrc": "http://aventuraoriginal.com/media/covers/20170328_183058_pP3gLab.png",
+      "image": "assets/scummvm/woodruff_and_the_schnibble.png",
+      "description": "Woodruff debe encontrar el mítico Schnibble para salvar a los pacíficos Boozooks de la opresión de los humanos. Humor absurdo."
+    },
+    {
+      "id": "yonkey_island",
+      "name": "Yonkey Island (Charnego Translations)",
+      "zip": "Yonkey Island 1.0 (Charnego Translations).zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Yonkey%20Island%201.0%20%28Charnego%20Translations%29.zip",
+      "folder": "yonkey_island",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Secret%20of%20Monkey%20Island%2C%20The.png",
+      "image": "assets/scummvm/yonkey_island.png",
+      "description": "Modificación fan-made de 'Monkey Island' con doblaje y textos al español llenos de modismos regionales y humor de Charnego Translations."
+    },
+    {
+      "id": "zak_mckracken",
+      "name": "Zak McKracken and the Alien Mindbenders",
+      "zip": "Zak Mckracken and the Alien Mindbenders.zip",
+      "url": "/download/mini-romset-scummvm-espanol-42-juegos/Zak%20Mckracken%20and%20the%20Alien%20Mindbenders.zip",
+      "folder": "zak_mckracken",
+      "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Zak%20McKracken%20and%20the%20Alien%20Mindbenders.png",
+      "image": "assets/scummvm/zak_mckracken.png",
+      "description": "Un periodista de tabloides debe evitar que alienígenas idioticen a la humanidad a través de las líneas telefónicas. Clásico de LucasArts."
+    }
+  ]
+}
