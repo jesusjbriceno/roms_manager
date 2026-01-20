@@ -1,36 +1,19 @@
 import { useState } from 'react';
 import { GameDetailsModal } from './GameDetailsModal';
+import { Game, LibraryState } from '../types';
 
-// Types must match App.tsx
-interface Game {
-  id: string;
-  name: string;
-  zip: string;
-  url: string;
-  folder: string;
-  imageSrc?: string;
-  image?: string;
-  description?: string;
-}
-
-type GameStatus = 'NOT_INSTALLED' | 'DOWNLOADING' | 'DOWNLOADED' | 'EXTRACTING' | 'EXTRACTED' | 'EXTRACTED_NO_ZIP';
-
-interface LibraryState {
-    id: string;
-    status: GameStatus;
-    lastUpdated: number;
-}
-
+// Icons
 interface RomListProps {
   roms: Game[];
   library: Record<string, LibraryState>;
   onDownload: (game: Game) => void;
   onExtract: (game: Game) => void;
   onDelete: (game: Game, deleteZip: boolean, deleteGame: boolean) => void;
+  onCancelDownload: (game: Game) => void;
   processing: Set<string>;
+  downloadProgress: Record<string, number>;
 }
 
-// Icons
 const DownloadIcon = () => (
     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
 );
@@ -44,10 +27,24 @@ const ZipIcon = () => (
     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
 );
 
-export const RomList = ({ roms, library, onDownload, onExtract, onDelete, processing }: RomListProps) => {
-  const [selectedGame, setSelectedGame] = useState<Game | null>(null);
+const CancelIcon = () => (
+    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+);
 
-  const sortedRoms = [...roms].sort((a, b) => a.name.localeCompare(b.name));
+const SearchIcon = () => (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+);
+
+export const RomList = ({ roms, library, onDownload, onExtract, onDelete, onCancelDownload, processing, downloadProgress }: RomListProps) => {
+  const [selectedGame, setSelectedGame] = useState<Game | null>(null);
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const filteredRoms = roms.filter(game => 
+    game.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
+    (game.description && game.description.toLowerCase().includes(searchTerm.toLowerCase()))
+  );
+
+  const sortedRoms = [...filteredRoms].sort((a, b) => a.name.localeCompare(b.name));
 
   if (roms.length === 0) {
     return (
@@ -72,7 +69,28 @@ export const RomList = ({ roms, library, onDownload, onExtract, onDelete, proces
   };
 
   return (
-    <div className="flex-1 flex overflow-hidden relative">
+    <div className="flex-1 flex flex-col overflow-hidden relative">
+      
+      {/* Search Bar */}
+      <div className="p-4 py-3 bg-[#2a2a2a]/50 backdrop-blur-sm border-b border-gray-700/50 sticky top-0 z-20 flex items-center gap-4">
+        <div className="relative flex-1 max-w-md">
+            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-gray-400">
+                <SearchIcon />
+            </div>
+            <input
+                type="text"
+                placeholder="Search games..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="w-full bg-black/20 border border-gray-600 text-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block pl-10 p-2.5 placeholder-gray-500 transition-all focus:bg-black/30"
+            />
+        </div>
+        <div className="text-xs text-gray-500 font-mono">
+            {filteredRoms.length} roms found
+        </div>
+      </div>
+
+      <div className="flex-1 flex overflow-hidden relative">
         {/* Main Grid */}
         <div className="flex-1 overflow-y-auto p-6 bg-[#181818] custom-scrollbar scroll-smooth">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 pr-4">
@@ -81,6 +99,7 @@ export const RomList = ({ roms, library, onDownload, onExtract, onDelete, proces
                 const isProcessing = processing.has(game.id);
 
                 // Derived states
+                const isDownloading = status === 'DOWNLOADING';
                 const isDownloaded = status === 'DOWNLOADED';
                 const isExtracted = status === 'EXTRACTED';
                 const isExtractedNoZip = status === 'EXTRACTED_NO_ZIP';
@@ -131,19 +150,31 @@ export const RomList = ({ roms, library, onDownload, onExtract, onDelete, proces
                              </h3>
                         </button>
                         
-                        {status !== 'NOT_INSTALLED' && (
-                            <span 
-                                className={`text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded-full border whitespace-nowrap
-                                    ${isExtracted || isExtractedNoZip ? 'text-green-400 bg-green-400/10 border-green-400/20' : ''}
-                                    ${isDownloaded ? 'text-blue-400 bg-blue-400/10 border-blue-400/20' : ''}
-                                    ${isProcessing ? 'text-yellow-400 bg-yellow-400/10 border-yellow-400/20' : ''}
-                                `}
-                            >
-                                {isProcessing 
-                                    ? (status === 'DOWNLOADING' ? 'DOWNLOADING...' : 'EXTRACTING...') 
-                                    : status.replace(/_/g, ' ')
-                                }
-                            </span>
+                        {(status !== 'NOT_INSTALLED' || game.size) && (
+                            <div className="flex flex-col items-end gap-1">
+                                {status !== 'NOT_INSTALLED' && (
+                                    <span 
+                                        className={`text-[10px] font-bold uppercase tracking-wider px-2 py-1 rounded-full border whitespace-nowrap
+                                            ${isExtracted || isExtractedNoZip ? 'text-green-400 bg-green-400/10 border-green-400/20' : ''}
+                                            ${isDownloaded ? 'text-blue-400 bg-blue-400/10 border-blue-400/20' : ''}
+                                            ${isProcessing ? 'text-yellow-400 bg-yellow-400/10 border-yellow-400/20' : ''}
+                                        `}
+                                    >
+                                        {isProcessing 
+                                            ? (status === 'DOWNLOADING' 
+                                                ? `DOWNLOADING ${downloadProgress[game.id] || 0}%` 
+                                                : 'EXTRACTING...') 
+                                            : status.replace(/_/g, ' ')
+                                        }
+                                    </span>
+                                )}
+                                {game.size && (
+                                    <span className="text-[10px] items-center flex gap-1 font-mono text-gray-500 bg-black/30 px-2 py-1 rounded-full border border-white/5">
+                                        <div className="w-1.5 h-1.5 rounded-full bg-gray-500"></div>
+                                        {game.size}
+                                    </span>
+                                )}
+                            </div>
                         )}
                     </div>
 
@@ -170,6 +201,25 @@ export const RomList = ({ roms, library, onDownload, onExtract, onDelete, proces
                             >
                                 <DownloadIcon /> Download Zip
                             </button>
+                        )}
+
+                        {/* If status is downloading */}
+                        {isDownloading && (
+                             <div className="w-full flex items-center gap-2">
+                                <div className="flex-1 h-1.5 bg-gray-700 rounded-full overflow-hidden">
+                                    <div 
+                                        className="h-full bg-blue-500 transition-all duration-300"
+                                        style={{ width: `${downloadProgress[game.id] || 0}%` }}
+                                    />
+                                </div>
+                                <button
+                                    onClick={() => onCancelDownload(game)}
+                                    className="p-1.5 text-gray-400 hover:text-red-400 hover:bg-red-500/10 rounded-lg transition-colors"
+                                    title="Cancel Download"
+                                >
+                                    <CancelIcon />
+                                </button>
+                            </div>
                         )}
 
                         {/* 2. If Downloaded -> Unzip or Delete */}
@@ -256,7 +306,10 @@ export const RomList = ({ roms, library, onDownload, onExtract, onDelete, proces
             onDownload={onDownload}
             onExtract={onExtract}
             onDelete={onDelete}
+            onCancelDownload={onCancelDownload}
+            downloadProgress={downloadProgress}
         />
+      </div>
     </div>
   );
 };

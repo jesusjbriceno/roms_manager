@@ -89,9 +89,22 @@ app.whenReady().then(async () => {
     return await sshService.listFiles(folder);
   });
 
-  ipcMain.handle('ssh:download', async (_, { baseUrl, resourcePath, destinationFolder, fileName }) => {
-    await sshService.download(baseUrl, resourcePath, destinationFolder, fileName);
+  ipcMain.handle('ssh:download', async (event, { id, baseUrl, resourcePath, destinationFolder, fileName }) => {
+    // Send progress to the same webContents that initiated the request
+    const onProgress = (percentage: number) => {
+        event.sender.send('download:progress', { id, percentage });
+    };
+    
+    // We now require an ID for the download to track it
+    const downloadId = id || fileName; // Fallback if no ID provided
+
+    await sshService.downloadStream(downloadId, baseUrl, resourcePath, destinationFolder, fileName, onProgress);
     return true;
+  });
+
+  ipcMain.handle('ssh:cancel', async (_, { id }) => {
+      sshService.cancelCommand(id);
+      return true;
   });
 
   ipcMain.handle('ssh:delete', async (_, { path }) => {

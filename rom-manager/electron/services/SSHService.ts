@@ -36,13 +36,33 @@ export class SSHService {
     }
   }
 
-  exec(command: string): Promise<string> {
+  private activeCommands: Map<string, any> = new Map();
+
+  cancelCommand(id: string) {
+    const stream = this.activeCommands.get(id);
+    if (stream) {
+        // stream is a Channel, we can close it or signal it.
+        // Sending a signal might be more effective to kill the process tree.
+        stream.stderr.removeAllListeners();
+        stream.removeAllListeners();
+        try {
+            stream.signal('KILL');
+            stream.close(); 
+        } catch (e) {
+            console.error('Error cancelling stream', e);
+        }
+        this.activeCommands.delete(id);
+    }
+  }
+
+  async exec(command: string): Promise<string> {
     if (!this.isConnected) return Promise.reject(new Error('Not connected'));
     
     return new Promise((resolve, reject) => {
       this.client.exec(command, (err, stream) => {
         if (err) return reject(err);
         
+        // ... (rest of exec is fine, but maybe I want to reuse logic? keeping separate for now to avoid breaking changes)
         let output = '';
         let errorOutput = '';
 
@@ -61,6 +81,65 @@ export class SSHService {
           errorOutput += data.toString();
         });
       });
+    });
+  }
+  
+  // New method for streaming download
+  async downloadStream(
+    id: string,
+    baseUrl: string, 
+    resourcePath: string, 
+    destinationFolder: string, 
+    fileName: string,
+    onProgress: (percentage: number) => void
+  ): Promise<void> {
+    const fullUrl = `${baseUrl}${resourcePath}`;
+    const destinationPath = `${destinationFolder}/${fileName}`;
+    
+    // Use --progress=dot to ensure we get output we can parse easily, or standard bar
+    // wget default bar is printed to stderr.
+    // We'll use default and regex for "[ 12%]" or similar.
+    // Actually, force basic parsing.
+    const command = `mkdir -p "${destinationFolder}" && wget -c "${fullUrl}" -O "${destinationPath}"`;
+    
+    return new Promise((resolve, reject) => {
+        if (!this.isConnected) return reject(new Error('Not connected'));
+
+        this.client.exec(command, (err, stream) => {
+            if (err) return reject(err);
+
+            this.activeCommands.set(id, stream);
+
+            let errorOutput = '';
+
+            stream.on('close', (code: number, signal: string) => {
+                this.activeCommands.delete(id);
+                if (code === 0) {
+                    resolve();
+                } else if (signal === 'KILL') {
+                    reject(new Error('Cancelled'));
+                } else {
+                    reject(new Error(errorOutput || `Download failed with code ${code}`));
+                }
+            });
+
+            // wget writes progress to stderr
+            stream.stderr.on('data', (data: Buffer) => {
+                const text = data.toString();
+                errorOutput += text; // keep for error reporting
+                
+                // Regex for standard wget specific percentage:  58% 
+                const match = text.match(/(\d+)%/);
+                if (match) {
+                    const percent = parseInt(match[1], 10);
+                    onProgress(percent);
+                }
+            });
+            
+            stream.on('data', (data: Buffer) => {
+                // Stdout usage
+            });
+        });
     });
   }
 

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import { Game, GameStatus } from '../App';
-import { DownloadIcon, UnboxIcon, TrashIcon, ZipIcon } from './icons'; // Using existing icons if exported, or I'll need to duplicate/export them. 
+import { Game, GameStatus } from '../types';
+ 
 // Note: I need to check if icons are exported from RomList or a separate file. 
 // Looking at RomList.tsx, icons seem to be defined locally or imported.
 // I will check RomList.tsx content again to see where icons come from.
@@ -19,6 +19,9 @@ import { DownloadIcon, UnboxIcon, TrashIcon, ZipIcon } from './icons'; // Using 
 // STARTING WITH MODAL CODE
 // I'll assume I can pass children or just duplicate the SVG code for now to ensure it works immediately without breaking changes elsewhere.
 
+
+
+
 export interface GameDetailsModalProps {
     game: Game | null;
     isOpen: boolean;
@@ -28,7 +31,13 @@ export interface GameDetailsModalProps {
     onDownload: (game: Game) => void;
     onExtract: (game: Game) => void;
     onDelete: (game: Game, deleteZip: boolean, deleteGame: boolean) => void;
+    onCancelDownload: (game: Game) => void;
+    downloadProgress: Record<string, number>;
 }
+
+const ModalCancelIcon = () => (
+    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+);
 
 const ModalDownloadIcon = () => (
     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
@@ -49,7 +58,7 @@ const CloseIcon = () => (
 
 export const GameDetailsModal = ({ 
     game, isOpen, onClose, status, isProcessing,
-    onDownload, onExtract, onDelete 
+    onDownload, onExtract, onDelete, onCancelDownload, downloadProgress
 }: GameDetailsModalProps) => {
     
     useEffect(() => {
@@ -117,11 +126,16 @@ export const GameDetailsModal = ({
                                 `}
                             >
                                 {isProcessing 
-                                    ? (status === 'DOWNLOADING' ? 'DOWNLOADING...' : 'EXTRACTING...') 
+                                    ? (status === 'DOWNLOADING' 
+                                        ? `DOWNLOADING ${downloadProgress[game.id] || 0}%` 
+                                        : 'EXTRACTING...') 
                                     : status.replace(/_/g, ' ')
                                 }
                             </span>
                             <span className="text-gray-500 text-xs font-mono">ID: {game.id}</span>
+                            {game.size && (
+                                <span className="text-gray-500 text-xs font-mono border-l border-gray-700 pl-3">Size: {game.size}</span>
+                            )}
                         </div>
                     </div>
 
@@ -146,6 +160,30 @@ export const GameDetailsModal = ({
                                     <ModalDownloadIcon /> 
                                     <span>Download Zip</span>
                                 </button>
+                            )}
+                            
+                            {/* 1.5 If Downloading -> Progress and Cancel */}
+                            {status === 'DOWNLOADING' && (
+                                <div className="flex-1 flex flex-col gap-2">
+                                    <div className="flex items-center gap-2">
+                                        <div className="flex-1 h-3 bg-gray-700 rounded-full overflow-hidden">
+                                            <div 
+                                                className="h-full bg-blue-500 transition-all duration-300"
+                                                style={{ width: `${downloadProgress[game.id] || 0}%` }}
+                                            />
+                                        </div>
+                                        <span className="text-xs font-mono text-blue-400 min-w-[3ch]">
+                                            {downloadProgress[game.id] || 0}%
+                                        </span>
+                                    </div>
+                                    <button
+                                        onClick={() => onCancelDownload(game)}
+                                        className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg font-bold uppercase tracking-wide bg-red-500/10 text-red-400 hover:bg-red-500 hover:text-white border border-red-500/20 transition-all"
+                                    >
+                                        <ModalCancelIcon />
+                                        <span>Cancel Download</span>
+                                    </button>
+                                </div>
                             )}
 
                             {/* 2. If Downloaded -> Unzip */}

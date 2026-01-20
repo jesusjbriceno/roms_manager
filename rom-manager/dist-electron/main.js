@@ -11,6 +11,7 @@ class SSHService {
   constructor() {
     __publicField(this, "client");
     __publicField(this, "isConnected", false);
+    __publicField(this, "activeCommands", /* @__PURE__ */ new Map());
     this.client = new Client();
   }
   connect(config) {
@@ -33,7 +34,21 @@ class SSHService {
       this.isConnected = false;
     }
   }
-  exec(command) {
+  cancelCommand(id) {
+    const stream = this.activeCommands.get(id);
+    if (stream) {
+      stream.stderr.removeAllListeners();
+      stream.removeAllListeners();
+      try {
+        stream.signal("KILL");
+        stream.close();
+      } catch (e) {
+        console.error("Error cancelling stream", e);
+      }
+      this.activeCommands.delete(id);
+    }
+  }
+  async exec(command) {
     if (!this.isConnected) return Promise.reject(new Error("Not connected"));
     return new Promise((resolve, reject) => {
       this.client.exec(command, (err, stream) => {
@@ -51,6 +66,41 @@ class SSHService {
           output += data.toString();
         }).stderr.on("data", (data) => {
           errorOutput += data.toString();
+        });
+      });
+    });
+  }
+  // New method for streaming download
+  async downloadStream(id, baseUrl, resourcePath, destinationFolder, fileName, onProgress) {
+    const fullUrl = `${baseUrl}${resourcePath}`;
+    const destinationPath = `${destinationFolder}/${fileName}`;
+    const command = `mkdir -p "${destinationFolder}" && wget -c "${fullUrl}" -O "${destinationPath}"`;
+    return new Promise((resolve, reject) => {
+      if (!this.isConnected) return reject(new Error("Not connected"));
+      this.client.exec(command, (err, stream) => {
+        if (err) return reject(err);
+        this.activeCommands.set(id, stream);
+        let errorOutput = "";
+        stream.on("close", (code, signal) => {
+          this.activeCommands.delete(id);
+          if (code === 0) {
+            resolve();
+          } else if (signal === "KILL") {
+            reject(new Error("Cancelled"));
+          } else {
+            reject(new Error(errorOutput || `Download failed with code ${code}`));
+          }
+        });
+        stream.stderr.on("data", (data) => {
+          const text = data.toString();
+          errorOutput += text;
+          const match = text.match(/(\d+)%/);
+          if (match) {
+            const percent = parseInt(match[1], 10);
+            onProgress(percent);
+          }
+        });
+        stream.on("data", (data) => {
         });
       });
     });
@@ -111,6 +161,17 @@ class LibraryStore {
     try {
       const content = await fs.readFile(this.path, "utf-8");
       this.data = JSON.parse(content);
+      let changed = false;
+      for (const key in this.data.games) {
+        const game = this.data.games[key];
+        if (game.status === "DOWNLOADING" || game.status === "EXTRACTING") {
+          game.status = "NOT_INSTALLED";
+          changed = true;
+        }
+      }
+      if (changed) {
+        await this.save();
+      }
     } catch (error) {
       this.data = { games: {} };
     }
@@ -185,8 +246,16 @@ app.whenReady().then(async () => {
   ipcMain.handle("ssh:list-files", async (_, folder) => {
     return await sshService.listFiles(folder);
   });
-  ipcMain.handle("ssh:download", async (_, { baseUrl, resourcePath, destinationFolder, fileName }) => {
-    await sshService.download(baseUrl, resourcePath, destinationFolder, fileName);
+  ipcMain.handle("ssh:download", async (event, { id, baseUrl, resourcePath, destinationFolder, fileName }) => {
+    const onProgress = (percentage) => {
+      event.sender.send("download:progress", { id, percentage });
+    };
+    const downloadId = id || fileName;
+    await sshService.downloadStream(downloadId, baseUrl, resourcePath, destinationFolder, fileName, onProgress);
+    return true;
+  });
+  ipcMain.handle("ssh:cancel", async (_, { id }) => {
+    sshService.cancelCommand(id);
     return true;
   });
   ipcMain.handle("ssh:delete", async (_, { path: path2 }) => {

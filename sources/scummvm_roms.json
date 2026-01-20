@@ -10,7 +10,8 @@
       "folder": "007_james_bond_stealth_affair",
       "imageSrc": "https://static.wikia.nocookie.net/jamesbond/images/c/cb/James_Bond_007_-_The_Stealth_Affair%2C_manual_art_%28b%29.png",
       "image": "assets/scummvm/007_james_bond_stealth_affair.png",
-      "description": "Conocido como 'Operation Stealth'. Una aventura de espionaje donde Bond (o John Glames) debe recuperar un avión furtivo robado en una trama de intriga internacional."
+      "description": "Conocido como 'Operation Stealth'. Una aventura de espionaje donde Bond (o John Glames) debe recuperar un avión furtivo robado en una trama de intriga internacional.",
+      "size": "2.1M"
     },
     {
       "id": "amazon_guardians_of_eden",
@@ -20,7 +21,8 @@
       "folder": "amazon_guardians_of_eden",
       "imageSrc": "https://www.insertcoinclasicos.com/wp-content/uploads/2014/09/amazon.jpg",
       "image": "assets/scummvm/amazon_guardians_of_eden.png",
-      "description": "Homenaje a la serie B de los 50. Adéntrate en el Amazonas para salvar a tu hermano y evitar que los nazis consigan unas esmeraldas con poderes."
+      "description": "Homenaje a la serie B de los 50. Adéntrate en el Amazonas para salvar a tu hermano y evitar que los nazis consigan unas esmeraldas con poderes.",
+      "size": "8.0M"
     },
     {
       "id": "beavis_and_butt_head_virtual_stupidity",
@@ -30,7 +32,8 @@
       "folder": "beavis_and_butt_head_virtual_stupidity",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Beavis%20and%20Butt-Head%20in%20Virtual%20Stupidity.png",
       "image": "assets/scummvm/beavis_and_butt_head_virtual_stupidity.png",
-      "description": "Controla al dúo más estúpido de la MTV mientras intentan unirse a la banda de Todd, resolviendo puzles absurdos y jugando minijuegos escatológicos."
+      "description": "Controla al dúo más estúpido de la MTV mientras intentan unirse a la banda de Todd, resolviendo puzles absurdos y jugando minijuegos escatológicos.",
+      "size": "229.2M"
     },
     {
       "id": "beneath_a_steel_sky",
@@ -40,7 +43,8 @@
       "folder": "beneath_a_steel_sky",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Beneath%20a%20Steel%20Sky.png",
       "image": "assets/scummvm/beneath_a_steel_sky.png",
-      "description": "Clásico cyberpunk distópico. Robert Foster y su robot Joey deben descubrir la verdad sobre la corrupción de Union City, una ciudad controlada por una IA."
+      "description": "Clásico cyberpunk distópico. Robert Foster y su robot Joey deben descubrir la verdad sobre la corrupción de Union City, una ciudad controlada por una IA.",
+      "size": "116.2M"
     },
     {
       "id": "blade_runner",
@@ -50,7 +54,8 @@
       "folder": "blade_runner",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Blade%20Runner.png",
       "image": "assets/scummvm/blade_runner.png",
-      "description": "Obra maestra de Westwood. Juegas como el detective Ray McCoy 'retirando' replicantes en una historia paralela a la película, con atmósfera voxel y múltiples finales."
+      "description": "Obra maestra de Westwood. Juegas como el detective Ray McCoy 'retirando' replicantes en una historia paralela a la película, con atmósfera voxel y múltiples finales.",
+      "size": "1.1G"
     },
     {
       "id": "broken_sword_1",
@@ -60,7 +65,8 @@
       "folder": "broken_sword_1",
       "imageSrc": "https://www.insertcoinclasicos.com/wp-content/uploads/2014/09/broken-sword.jpg",
       "image": "assets/scummvm/broken_sword_1.png",
-      "description": "George Stobbart y Nico Collard se ven envueltos en una conspiración milenaria relacionada con los Caballeros Templarios tras un atentado en París."
+      "description": "George Stobbart y Nico Collard se ven envueltos en una conspiración milenaria relacionada con los Caballeros Templarios tras un atentado en París.",
+      "size": "361.4M"
     },
     {
       "id": "broken_sword_2",
@@ -70,7 +76,8 @@
       "folder": "broken_sword_2",
       "imageSrc": "https://www.insertcoinclasicos.com/wp-content/uploads/2024/09/4727452-broken-sword-the-smoking-mirror-windows-front-cover.jpg",
       "image": "assets/scummvm/broken_sword_2.png",
-      "description": "George y Nico regresan en una aventura que involucra a un dios maya, un eclipse solar y traficantes de drogas. Mantiene el humor y arte del original."
+      "description": "George y Nico regresan en una aventura que involucra a un dios maya, un eclipse solar y traficantes de drogas. Mantiene el humor y arte del original.",
+      "size": "405.1M"
     },
     {
       "id": "bud_tucker_in_double_trouble",
@@ -80,7 +87,8 @@
       "folder": "bud_tucker_in_double_trouble",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Bud%20Tucker%20in%20Double%20Trouble.png",
       "image": "assets/scummvm/bud_tucker_in_double_trouble.png",
-      "description": "Comedia disparatada donde un repartidor de pizzas debe salvar al mundo de un científico loco que quiere repoblar la Tierra con clones de calabaza."
+      "description": "Comedia disparatada donde un repartidor de pizzas debe salvar al mundo de un científico loco que quiere repoblar la Tierra con clones de calabaza.",
+      "size": "63.0M"
     },
     {
       "id": "code_name_iceman",
@@ -90,7 +98,8 @@
       "folder": "code_name_iceman",
       "imageSrc": "https://upload.wikimedia.org/wikipedia/en/8/81/Codename-Iceman-box-cover.jpg",
       "image": "assets/scummvm/code_name_iceman.png",
-      "description": "Thriller tecnológico de Sierra. Mezcla aventura gráfica con simulador de submarinos mientras intentas rescatar a un embajador estadounidense secuestrado."
+      "description": "Thriller tecnológico de Sierra. Mezcla aventura gráfica con simulador de submarinos mientras intentas rescatar a un embajador estadounidense secuestrado.",
+      "size": "2.8M"
     },
     {
       "id": "discworld_1",
@@ -100,7 +109,8 @@
       "folder": "discworld_1",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Discworld.png",
       "image": "assets/scummvm/discworld_1.png",
-      "description": "Basado en Terry Pratchett. El mago Rincewind debe detener a un dragón que aterroriza Ankh-Morpork. Famoso por su dificultad y humor absurdo."
+      "description": "Basado en Terry Pratchett. El mago Rincewind debe detener a un dragón que aterroriza Ankh-Morpork. Famoso por su dificultad y humor absurdo.",
+      "size": "343.2M"
     },
     {
       "id": "discworld_2",
@@ -110,7 +120,8 @@
       "folder": "discworld_2",
       "imageSrc": "https://m.media-amazon.com/images/I/61M4kLWyoGL.jpg",
       "image": "assets/scummvm/discworld_2.png",
-      "description": "La Muerte ha desaparecido y Rincewind debe encontrarla. Gráficos estilo dibujos animados y el humor característico del Mundodisco."
+      "description": "La Muerte ha desaparecido y Rincewind debe encontrarla. Gráficos estilo dibujos animados y el humor característico del Mundodisco.",
+      "size": "681.0M"
     },
     {
       "id": "dreamweb",
@@ -120,7 +131,8 @@
       "folder": "dreamweb",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/DreamWeb.png",
       "image": "assets/scummvm/dreamweb.png",
-      "description": "Aventura cyberpunk oscura y violenta con vista cenital. Ryan cree que debe asesinar a siete personas para salvar la 'Dreamweb' y evitar el colapso del universo."
+      "description": "Aventura cyberpunk oscura y violenta con vista cenital. Ryan cree que debe asesinar a siete personas para salvar la 'Dreamweb' y evitar el colapso del universo.",
+      "size": "161.8M"
     },
     {
       "id": "ecoquest_1",
@@ -130,7 +142,8 @@
       "folder": "ecoquest_1",
       "imageSrc": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/SierraOnLine-Box-EcoQuest.jpg/500px-SierraOnLine-Box-EcoQuest.jpg",
       "image": "assets/scummvm/ecoquest_1.png",
-      "description": "Juego educativo de Sierra. Adam y su delfín parlante viajan al reino submarino para rescatar a la ballena rey, Cetus, aprendiendo sobre conservación marina."
+      "description": "Juego educativo de Sierra. Adam y su delfín parlante viajan al reino submarino para rescatar a la ballena rey, Cetus, aprendiendo sobre conservación marina.",
+      "size": "163.5M"
     },
     {
       "id": "ecoquest_2",
@@ -140,7 +153,8 @@
       "folder": "ecoquest_2",
       "imageSrc": "https://images.gog.com/ab3461efc39758176f1c307a5dcca71b03d47ee03b7588ca6d17bfe534fc60be_glx_vertical_cover.webp",
       "image": "assets/scummvm/ecoquest_2.png",
-      "description": "Adam viaja al Amazonas para ayudar a las tribus locales y descubrir el secreto del bosque, enfrentándose a peligros ecológicos."
+      "description": "Adam viaja al Amazonas para ayudar a las tribus locales y descubrir el secreto del bosque, enfrentándose a peligros ecológicos.",
+      "size": "7.5M"
     },
     {
       "id": "fascination",
@@ -150,7 +164,8 @@
       "folder": "fascination",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Fascination.png",
       "image": "assets/scummvm/fascination.png",
-      "description": "Thriller erótico francés. Doralice presencia un asesinato y recibe un maletín secreto, huyendo de asesinos en una trama de suspense adulto."
+      "description": "Thriller erótico francés. Doralice presencia un asesinato y recibe un maletín secreto, huyendo de asesinos en una trama de suspense adulto.",
+      "size": "229.8M"
     },
     {
       "id": "flight_of_the_amazon_queen",
@@ -160,7 +175,8 @@
       "folder": "flight_of_the_amazon_queen",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Flight%20of%20the%20Amazon%20Queen.png",
       "image": "assets/scummvm/flight_of_the_amazon_queen.png",
-      "description": "El piloto Joe King se estrella en el Amazonas y debe detener a un científico loco que planea convertir a las amazonas en dinosaurios mutantes."
+      "description": "El piloto Joe King se estrella en el Amazonas y debe detener a un científico loco que planea convertir a las amazonas en dinosaurios mutantes.",
+      "size": "35.1M"
     },
     {
       "id": "freddy_pharkas",
@@ -170,7 +186,8 @@
       "folder": "freddy_pharkas",
       "imageSrc": "https://www.insertcoinclasicos.com/wp-content/uploads/2014/09/Freddypharkas5.jpg",
       "image": "assets/scummvm/freddy_pharkas.png",
-      "description": "Comedia del oeste de Al Lowe. Freddy, un farmacéutico con pasado de pistolero, debe salvar su pueblo de una serie de plagas extrañas."
+      "description": "Comedia del oeste de Al Lowe. Freddy, un farmacéutico con pasado de pistolero, debe salvar su pueblo de una serie de plagas extrañas.",
+      "size": "481.7M"
     },
     {
       "id": "full_pipe",
@@ -180,7 +197,8 @@
       "folder": "full_pipe",
       "imageSrc": "https://images.pcgamingwiki.com/8/82/Full_Pipe_-_cover.jpg",
       "image": "assets/scummvm/full_pipe.png",
-      "description": "Surrealista aventura rusa. El protagonista cae por una tubería y explora un laberinto subterráneo lleno de criaturas bizarras y puzles lógicos."
+      "description": "Surrealista aventura rusa. El protagonista cae por una tubería y explora un laberinto subterráneo lleno de criaturas bizarras y puzles lógicos.",
+      "size": "303.8M"
     },
     {
       "id": "full_throttle",
@@ -190,7 +208,8 @@
       "folder": "full_throttle",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Full%20Throttle.png",
       "image": "assets/scummvm/full_throttle.png",
-      "description": "Ben, líder de los moteros 'Polecats', es incriminado por asesinato. Heavy metal, asfalto y una historia legendaria de Tim Schafer."
+      "description": "Ben, líder de los moteros 'Polecats', es incriminado por asesinato. Heavy metal, asfalto y una historia legendaria de Tim Schafer.",
+      "size": "259.9M"
     },
     {
       "id": "hopkins_fbi",
@@ -200,7 +219,8 @@
       "folder": "hopkins_fbi",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Hopkins%20FBI.png",
       "image": "assets/scummvm/hopkins_fbi.png",
-      "description": "Aventura policial extremadamente cruda. El agente del FBI Hopkins persigue al criminal Bernie Berckson. Famosa por sus escenas sangrientas."
+      "description": "Aventura policial extremadamente cruda. El agente del FBI Hopkins persigue al criminal Bernie Berckson. Famosa por sus escenas sangrientas.",
+      "size": "329.7M"
     },
     {
       "id": "i_have_no_mouth",
@@ -210,7 +230,8 @@
       "folder": "i_have_no_mouth",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/I%20Have%20No%20Mouth%2C%20and%20I%20Must%20Scream.png",
       "image": "assets/scummvm/i_have_no_mouth.png",
-      "description": "Terror psicológico. La supercomputadora AM tortura a los últimos 5 humanos. Debes enfrentar los miedos más profundos de cada personaje."
+      "description": "Terror psicológico. La supercomputadora AM tortura a los últimos 5 humanos. Debes enfrentar los miedos más profundos de cada personaje.",
+      "size": "293.4M"
     },
     {
       "id": "indiana_jones_fate_of_atlantis",
@@ -220,7 +241,8 @@
       "folder": "indiana_jones_fate_of_atlantis",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Indiana%20Jones%20and%20the%20Fate%20of%20Atlantis.png",
       "image": "assets/scummvm/indiana_jones_fate_of_atlantis.png",
-      "description": "Compite contra los nazis para encontrar la ciudad perdida de la Atlántida en una aventura con tres caminos distintos de resolución."
+      "description": "Compite contra los nazis para encontrar la ciudad perdida de la Atlántida en una aventura con tres caminos distintos de resolución.",
+      "size": "60.3M"
     },
     {
       "id": "indiana_jones_last_crusade",
@@ -230,7 +252,8 @@
       "folder": "indiana_jones_last_crusade",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Indiana%20Jones%20and%20the%20Last%20Crusade.png",
       "image": "assets/scummvm/indiana_jones_last_crusade.png",
-      "description": "Rescata a tu padre y encuentra el Santo Grial antes que los nazis, usando ingenio o puños en esta adaptación fiel de la película."
+      "description": "Rescata a tu padre y encuentra el Santo Grial antes que los nazis, usando ingenio o puños en esta adaptación fiel de la película.",
+      "size": "3.1M"
     },
     {
       "id": "inherit_the_earth",
@@ -240,7 +263,8 @@
       "folder": "inherit_the_earth",
       "imageSrc": "https://upload.wikimedia.org/wikipedia/en/3/31/Inherit_the_Earth_-_Quest_for_the_Orb_Coverart.png",
       "image": "assets/scummvm/inherit_the_earth.png",
-      "description": "En un futuro gobernado por animales antropomórficos, el zorro Rif es acusado falsamente de robar un orbe legendario y debe limpiar su nombre."
+      "description": "En un futuro gobernado por animales antropomórficos, el zorro Rif es acusado falsamente de robar un orbe legendario y debe limpiar su nombre.",
+      "size": "376.0M"
     },
     {
       "id": "kathy_rain",
@@ -250,7 +274,8 @@
       "folder": "kathy_rain",
       "imageSrc": "https://upload.wikimedia.org/wikipedia/en/b/b5/Kathy_Rain_cover.jpg",
       "image": "assets/scummvm/kathy_rain.png",
-      "description": "Aventura moderna pixel-art. Kathy, una estudiante de periodismo, regresa a su pueblo para investigar la misteriosa muerte de su abuelo en los 90."
+      "description": "Aventura moderna pixel-art. Kathy, una estudiante de periodismo, regresa a su pueblo para investigar la misteriosa muerte de su abuelo en los 90.",
+      "size": "347.4M"
     },
     {
       "id": "laura_bow_2",
@@ -260,7 +285,8 @@
       "folder": "laura_bow_2",
       "imageSrc": "http://aventuraoriginal.com/media/covers/658_Front.jpg",
       "image": "assets/scummvm/laura_bow_2.png",
-      "description": "Ambientada en los años 20. Laura Bow se ve envuelta en un asesinato durante una fiesta en un museo egipcio. Misterio clásico."
+      "description": "Ambientada en los años 20. Laura Bow se ve envuelta en un asesinato durante una fiesta en un museo egipcio. Misterio clásico.",
+      "size": "216.0M"
     },
     {
       "id": "laura_bow_1",
@@ -270,7 +296,8 @@
       "folder": "laura_bow_1",
       "imageSrc": "https://www.insertcoinclasicos.com/wp-content/uploads/2014/09/lauracover.jpg",
       "image": "assets/scummvm/laura_bow_1.png",
-      "description": "Misterio al estilo Agatha Christie en una mansión aislada donde los invitados mueren uno a uno. El tiempo avanza y debes observar para sobrevivir."
+      "description": "Misterio al estilo Agatha Christie en una mansión aislada donde los invitados mueren uno a uno. El tiempo avanza y debes observar para sobrevivir.",
+      "size": "3.7M"
     },
     {
       "id": "leisure_suit_larry_3",
@@ -280,7 +307,8 @@
       "folder": "leisure_suit_larry_3",
       "imageSrc": "http://aventuraoriginal.com/media/covers/20170328_181246_SnBVxew.png",
       "image": "assets/scummvm/leisure_suit_larry_3.png",
-      "description": "Larry busca el amor en una isla tropical tras ser abandonado. Por primera vez, también controlas a Passionate Patti."
+      "description": "Larry busca el amor en una isla tropical tras ser abandonado. Por primera vez, también controlas a Passionate Patti.",
+      "size": "4.4M"
     },
     {
       "id": "leisure_suit_larry_5",
@@ -290,7 +318,8 @@
       "folder": "leisure_suit_larry_5",
       "imageSrc": "http://aventuraoriginal.com/media/covers/20170328_182148_f0ykkjW.png",
       "image": "assets/scummvm/leisure_suit_larry_5.png",
-      "description": "Larry, con amnesia, trabaja en la industria del cine adulto, mientras Patti es espía del FBI. Se saltaron la parte 4 deliberadamente."
+      "description": "Larry, con amnesia, trabaja en la industria del cine adulto, mientras Patti es espía del FBI. Se saltaron la parte 4 deliberadamente.",
+      "size": "8.5M"
     },
     {
       "id": "leisure_suit_larry_6",
@@ -300,7 +329,8 @@
       "folder": "leisure_suit_larry_6",
       "imageSrc": "http://aventuraoriginal.com/media/covers/20170328_182541_ibbykio.png",
       "image": "assets/scummvm/leisure_suit_larry_6.png",
-      "description": "Larry gana unas vacaciones en un spa de lujo e intenta seducir a las diversas huéspedes sin acabar humillado, como es costumbre."
+      "description": "Larry gana unas vacaciones en un spa de lujo e intenta seducir a las diversas huéspedes sin acabar humillado, como es costumbre.",
+      "size": "424.4M"
     },
     {
       "id": "leisure_suit_larry_7",
@@ -310,7 +340,8 @@
       "folder": "leisure_suit_larry_7",
       "imageSrc": "http://aventuraoriginal.com/media/covers/larrycover.jpg",
       "image": "assets/scummvm/leisure_suit_larry_7.png",
-      "description": "Última aventura clásica, con gráficos estilo cartoon. Larry se embarca en un crucero lleno de celebridades y situaciones picantes."
+      "description": "Última aventura clásica, con gráficos estilo cartoon. Larry se embarca en un crucero lleno de celebridades y situaciones picantes.",
+      "size": "483.2M"
     },
     {
       "id": "leisure_suit_larry_2",
@@ -320,7 +351,8 @@
       "folder": "leisure_suit_larry_2",
       "imageSrc": "http://aventuraoriginal.com/media/covers/916-leisure-suit-larry-goes-looking-for-love-in-several-wrong-places-dos-front-cover.jpg",
       "image": "assets/scummvm/leisure_suit_larry_2.png",
-      "description": "Larry gana la lotería y un viaje en crucero, pero termina perseguido por la KGB y científicos locos en una aventura global."
+      "description": "Larry gana la lotería y un viaje en crucero, pero termina perseguido por la KGB y científicos locos en una aventura global.",
+      "size": "2.2M"
     },
     {
       "id": "leisure_suit_larry_1",
@@ -330,7 +362,8 @@
       "folder": "leisure_suit_larry_1",
       "imageSrc": "http://aventuraoriginal.com/media/covers/larry1agi.jpeg",
       "image": "assets/scummvm/leisure_suit_larry_1.png",
-      "description": "El clásico original. Larry Laffer viaja a la ciudad de Lost Wages con el único objetivo de encontrar el amor verdadero antes del amanecer."
+      "description": "El clásico original. Larry Laffer viaja a la ciudad de Lost Wages con el único objetivo de encontrar el amor verdadero antes del amanecer.",
+      "size": "3.8M"
     },
     {
       "id": "lighthouse",
@@ -340,7 +373,8 @@
       "folder": "lighthouse",
       "imageSrc": "http://aventuraoriginal.com/media/covers/20170328_183411_z5SKU4u.png",
       "image": "assets/scummvm/lighthouse.png",
-      "description": "Aventura de terror y ciencia ficción estilo Myst. Viaja a un mundo paralelo mecánico para rescatar a un bebé secuestrado por una entidad oscura."
+      "description": "Aventura de terror y ciencia ficción estilo Myst. Viaja a un mundo paralelo mecánico para rescatar a un bebé secuestrado por una entidad oscura.",
+      "size": "794.7M"
     },
     {
       "id": "loom",
@@ -350,7 +384,8 @@
       "folder": "loom",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Loom.png",
       "image": "assets/scummvm/loom.png",
-      "description": "Obra maestra de fantasía de LucasArts. Bobbin Threadbare debe salvar al Gremio de los Tejedores usando distonios musicales para lanzar hechizos."
+      "description": "Obra maestra de fantasía de LucasArts. Bobbin Threadbare debe salvar al Gremio de los Tejedores usando distonios musicales para lanzar hechizos.",
+      "size": "39.2M"
     },
     {
       "id": "sherlock_holmes_serrated_scalpel",
@@ -360,7 +395,8 @@
       "folder": "sherlock_holmes_serrated_scalpel",
       "imageSrc": "https://www.insertcoinclasicos.com/wp-content/uploads/2014/09/sherlock-holmes-cover.jpg",
       "image": "assets/scummvm/sherlock_holmes_serrated_scalpel.png",
-      "description": "Holmes y Watson investigan el asesinato de una actriz que parece obra de Jack el Destripador. Una de las mejores adaptaciones del detective."
+      "description": "Holmes y Watson investigan el asesinato de una actriz que parece obra de Jack el Destripador. Una de las mejores adaptaciones del detective.",
+      "size": "7.1M"
     },
     {
       "id": "sherlock_holmes_rose_tattoo",
@@ -370,7 +406,8 @@
       "folder": "sherlock_holmes_rose_tattoo",
       "imageSrc": "https://www.insertcoinclasicos.com/wp-content/uploads/2025/05/Rosa-Tatuada-Cover.jpg",
       "image": "assets/scummvm/sherlock_holmes_rose_tattoo.png",
-      "description": "Secuela con gráficos digitalizados. Una explosión hiere a Mycroft, llevando a Sherlock a una investigación de espionaje y corrupción real."
+      "description": "Secuela con gráficos digitalizados. Una explosión hiere a Mycroft, llevando a Sherlock a una investigación de espionaje y corrupción real.",
+      "size": "404.0M"
     },
     {
       "id": "lost_in_time",
@@ -380,7 +417,8 @@
       "folder": "lost_in_time",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Lost%20in%20Time.png",
       "image": "assets/scummvm/lost_in_time.png",
-      "description": "Una mujer explora un naufragio de 1840 y termina viajando en el tiempo. Aventura FMV temprana de Coktel Vision con puzles desafiantes."
+      "description": "Una mujer explora un naufragio de 1840 y termina viajando en el tiempo. Aventura FMV temprana de Coktel Vision con puzles desafiantes.",
+      "size": "34.6M"
     },
     {
       "id": "day_of_the_tentacle",
@@ -390,7 +428,8 @@
       "folder": "day_of_the_tentacle",
       "imageSrc": "https://www.insertcoinclasicos.com/wp-content/uploads/2014/09/250px-Day-of-the-tentacle-cover-art.jpg",
       "image": "assets/scummvm/day_of_the_tentacle.png",
-      "description": "Bernard, Hoagie y Laverne viajan por el tiempo para evitar que el Tentáculo Púrpura conquiste el mundo. La cima del humor gráfico."
+      "description": "Bernard, Hoagie y Laverne viajan por el tiempo para evitar que el Tentáculo Púrpura conquiste el mundo. La cima del humor gráfico.",
+      "size": "7.7M"
     },
     {
       "id": "maniac_mansion",
@@ -400,7 +439,8 @@
       "folder": "maniac_mansion",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Maniac%20Mansion.png",
       "image": "assets/scummvm/maniac_mansion.png",
-      "description": "El origen de SCUMM. Dave y sus amigos entran en la mansión Edison para rescatar a Sandy. Múltiples personajes y finales posibles."
+      "description": "El origen de SCUMM. Dave y sus amigos entran en la mansión Edison para rescatar a Sandy. Múltiples personajes y finales posibles.",
+      "size": "328.3K"
     },
     {
       "id": "monkey_island_2",
@@ -410,7 +450,8 @@
       "folder": "monkey_island_2",
       "imageSrc": "http://aventuraoriginal.com/media/covers/20170328_175153_qGs0gbV.png",
       "image": "assets/scummvm/monkey_island_2.png",
-      "description": "Guybrush Threepwood busca el tesoro legendario 'Big Whoop', perseguido por el zombi LeChuck. Una secuela más grande, oscura y compleja."
+      "description": "Guybrush Threepwood busca el tesoro legendario 'Big Whoop', perseguido por el zombi LeChuck. Una secuela más grande, oscura y compleja.",
+      "size": "115.4M"
     },
     {
       "id": "pantera_rosa_hocus_pocus",
@@ -420,7 +461,8 @@
       "folder": "pantera_rosa_hocus_pocus",
       "imageSrc": "http://aventuraoriginal.com/media/covers/pantera.jpeg",
       "image": "assets/scummvm/pantera_rosa_hocus_pocus.png",
-      "description": "La Pantera aprende magia y viaja a través de la historia para escapar de un conejo mago. Aventura educativa y divertida."
+      "description": "La Pantera aprende magia y viaja a través de la historia para escapar de un conejo mago. Aventura educativa y divertida.",
+      "size": "247.7M"
     },
     {
       "id": "pantera_rosa_passport_to_peril",
@@ -430,7 +472,8 @@
       "folder": "pantera_rosa_passport_to_peril",
       "imageSrc": "https://www.doblajevideojuegos.es/portadas/portada_la-pantera-rosa-mision-peligrosa.jpg",
       "image": "assets/scummvm/pantera_rosa_passport_to_peril.png",
-      "description": "La Pantera es enviada al campamento ChillyWawa para proteger a niños genios, resolviendo misterios en una aventura point-and-click clásica."
+      "description": "La Pantera es enviada al campamento ChillyWawa para proteger a niños genios, resolviendo misterios en una aventura point-and-click clásica.",
+      "size": "298.8M"
     },
     {
       "id": "rex_nebular",
@@ -440,7 +483,8 @@
       "folder": "rex_nebular",
       "imageSrc": "http://aventuraoriginal.com/media/covers/IMG_0143.jpg",
       "image": "assets/scummvm/rex_nebular.png",
-      "description": "Rex Nebular se estrella en un planeta habitado solo por mujeres que eliminaron a los hombres. Humor irreverente de MicroProse."
+      "description": "Rex Nebular se estrella en un planeta habitado solo por mujeres que eliminaron a los hombres. Humor irreverente de MicroProse.",
+      "size": "22.0M"
     },
     {
       "id": "sam_and_max",
@@ -450,7 +494,8 @@
       "folder": "sam_and_max",
       "imageSrc": "http://aventuraoriginal.com/media/covers/sam.jpg",
       "image": "assets/scummvm/sam_and_max.png",
-      "description": "Un perro y un conejo psicópata (Policía Freelance) recorren las atracciones turísticas de EE.UU. buscando un pies grandes congelado."
+      "description": "Un perro y un conejo psicópata (Policía Freelance) recorren las atracciones turísticas de EE.UU. buscando un pies grandes congelado.",
+      "size": "104.7M"
     },
     {
       "id": "simon_the_sorcerer",
@@ -460,7 +505,8 @@
       "folder": "simon_the_sorcerer",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Simon%20the%20Sorcerer.png",
       "image": "assets/scummvm/simon_the_sorcerer.png",
-      "description": "Simon, un adolescente sarcástico, es transportado a un mundo de fantasía lleno de clichés. Debe rescatar al mago Calypso del malvado Sordid."
+      "description": "Simon, un adolescente sarcástico, es transportado a un mundo de fantasía lleno de clichés. Debe rescatar al mago Calypso del malvado Sordid.",
+      "size": "177.5M"
     },
     {
       "id": "space_quest_incinerations",
@@ -470,7 +516,8 @@
       "folder": "space_quest_incinerations",
       "imageSrc": "https://static.wikia.nocookie.net/spacequest/images/a/ab/SQInc_Poster_169.jpg",
       "image": "assets/scummvm/space_quest_incinerations.png",
-      "description": "Aclamado juego fan-made de Roger Wilco. Ofrece una historia más cinematográfica y oscura, con gráficos 3D prerrenderizados."
+      "description": "Aclamado juego fan-made de Roger Wilco. Ofrece una historia más cinematográfica y oscura, con gráficos 3D prerrenderizados.",
+      "size": "767.5M"
     },
     {
       "id": "technobabylon",
@@ -480,7 +527,8 @@
       "folder": "technobabylon",
       "imageSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22wd.webp",
       "image": "assets/scummvm/technobabylon.png",
-      "description": "Cyberpunk moderno. En el año 2087, tres personajes entrelazan sus destinos enfrentándose a una conspiración de IA y control mental."
+      "description": "Cyberpunk moderno. En el año 2087, tres personajes entrelazan sus destinos enfrentándose a una conspiración de IA y control mental.",
+      "size": "1.1G"
     },
     {
       "id": "castle_of_doctor_brain",
@@ -490,7 +538,8 @@
       "folder": "castle_of_doctor_brain",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Castle%20of%20Dr.%20Brain.png",
       "image": "assets/scummvm/castle_of_doctor_brain.png",
-      "description": "Puzles educativos de Sierra. Supera retos de lógica, matemáticas y ciencia para convertirte en el asistente del excéntrico Dr. Brain."
+      "description": "Puzles educativos de Sierra. Supera retos de lógica, matemáticas y ciencia para convertirte en el asistente del excéntrico Dr. Brain.",
+      "size": "4.3M"
     },
     {
       "id": "curse_of_monkey_island",
@@ -500,7 +549,8 @@
       "folder": "curse_of_monkey_island",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Curse%20of%20Monkey%20Island%2C%20The.png",
       "image": "assets/scummvm/curse_of_monkey_island.png",
-      "description": "Tercera entrega con animación tradicional. Guybrush convierte a Elaine en una estatua de oro y debe romper la maldición."
+      "description": "Tercera entrega con animación tradicional. Guybrush convierte a Elaine en una estatua de oro y debe romper la maldición.",
+      "size": "833.1M"
     },
     {
       "id": "the_dig",
@@ -510,7 +560,8 @@
       "folder": "the_dig",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Dig%2C%20The.png",
       "image": "assets/scummvm/the_dig.png",
-      "description": "Ciencia ficción escrita con Spielberg. Astronautas son transportados a un planeta alienígena desierto y deben descifrar su tecnología para volver."
+      "description": "Ciencia ficción escrita con Spielberg. Astronautas son transportados a un planeta alienígena desierto y deben descifrar su tecnología para volver.",
+      "size": "464.0M"
     },
     {
       "id": "the_longest_journey",
@@ -520,7 +571,8 @@
       "folder": "the_longest_journey",
       "imageSrc": "http://aventuraoriginal.com/media/covers/caja-the-longest-journey_0z2EK66.jpg",
       "image": "assets/scummvm/the_longest_journey.png",
-      "description": "April Ryan descubre que puede viajar entre dos mundos paralelos: Stark (ciencia) y Arcadia (magia). Una historia épica y profunda."
+      "description": "April Ryan descubre que puede viajar entre dos mundos paralelos: Stark (ciencia) y Arcadia (magia). Una historia épica y profunda.",
+      "size": "1.6G"
     },
     {
       "id": "the_neverhood",
@@ -530,7 +582,8 @@
       "folder": "the_neverhood",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Neverhood%2C%20The.png",
       "image": "assets/scummvm/the_neverhood.png",
-      "description": "Mundo hecho de plastilina (Claymation). Controlas a Klaymen en un entorno surrealista lleno de puzles creativos y humor visual."
+      "description": "Mundo hecho de plastilina (Claymation). Controlas a Klaymen en un entorno surrealista lleno de puzles creativos y humor visual.",
+      "size": "594.5M"
     },
     {
       "id": "secret_of_monkey_island",
@@ -540,7 +593,8 @@
       "folder": "secret_of_monkey_island",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Secret%20of%20Monkey%20Island%2C%20The.png",
       "image": "assets/scummvm/secret_of_monkey_island.png",
-      "description": "El comienzo de la leyenda. Guybrush Threepwood llega a Mêlée Island para ser pirata. Duelos de insultos, grog y el Pirata Fantasma LeChuck."
+      "description": "El comienzo de la leyenda. Guybrush Threepwood llega a Mêlée Island para ser pirata. Duelos de insultos, grog y el Pirata Fantasma LeChuck.",
+      "size": "122.5M"
     },
     {
       "id": "toonstruck",
@@ -550,7 +604,8 @@
       "folder": "toonstruck",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Toonstruck.png",
       "image": "assets/scummvm/toonstruck.png",
-      "description": "Christopher Lloyd es un dibujante absorbido por su propio mundo de dibujos animados. Debe ayudar a los 'toon' buenos contra el Conde Nefarious."
+      "description": "Christopher Lloyd es un dibujante absorbido por su propio mundo de dibujos animados. Debe ayudar a los 'toon' buenos contra el Conde Nefarious.",
+      "size": "874.4M"
     },
     {
       "id": "touche_adventures",
@@ -560,7 +615,8 @@
       "folder": "touche_adventures",
       "imageSrc": "https://upload.wikimedia.org/wikipedia/en/7/76/ToucheTheAdventuresOfTheFifthMusketeer_cover.png",
       "image": "assets/scummvm/touche_adventures.png",
-      "description": "Geoffroi Le Brun quiere ser mosquetero en una Francia histórica llena de humor anacrónico. Una joya oculta con excelentes gráficos."
+      "description": "Geoffroi Le Brun quiere ser mosquetero en una Francia histórica llena de humor anacrónico. Una joya oculta con excelentes gráficos.",
+      "size": "188.0M"
     },
     {
       "id": "ufos",
@@ -570,7 +626,8 @@
       "folder": "ufos",
       "imageSrc": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTZ-sacB6rkvgLavOruMZe-UQizusC8dJ_S51BFRByvSwWSMAcAm4h3MDeSJrxPhVkgU20H7LJVkSPaecmUruMIEIiGzz4euR-ilTQNwJw86FMtFsLxo2jL7HDQxXs2E_2mDem2cNight3/s1600/UFOs.jpg",
       "image": "assets/scummvm/ufos.png",
-      "description": "Un alienígena se estrella en una granja terrestre y debe reparar su nave evitando a los lugareños. Estilo visual de dibujos animados muy peculiar."
+      "description": "Un alienígena se estrella en una granja terrestre y debe reparar su nave evitando a los lugareños. Estilo visual de dibujos animados muy peculiar.",
+      "size": "353.0M"
     },
     {
       "id": "urban_runner",
@@ -580,7 +637,8 @@
       "folder": "urban_runner",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Urban%20Runner.png",
       "image": "assets/scummvm/urban_runner.png",
-      "description": "Thriller FMV. Eres un periodista incriminado por un asesinato que no cometió, huyendo por París mientras recolectas pistas."
+      "description": "Thriller FMV. Eres un periodista incriminado por un asesinato que no cometió, huyendo por París mientras recolectas pistas.",
+      "size": "1.5G"
     },
     {
       "id": "ween_the_prophecy",
@@ -590,7 +648,8 @@
       "folder": "ween_the_prophecy",
       "imageSrc": "http://aventuraoriginal.com/media/covers/portada_del.jpg",
       "image": "assets/scummvm/ween_the_prophecy.png",
-      "description": "Debes cumplir tres misiones para complacer a tu abuelo hechicero. Aventura en primera persona conocida por su dificultad."
+      "description": "Debes cumplir tres misiones para complacer a tu abuelo hechicero. Aventura en primera persona conocida por su dificultad.",
+      "size": "6.0M"
     },
     {
       "id": "wetlands",
@@ -600,7 +659,8 @@
       "folder": "wetlands",
       "imageSrc": "https://thumbnails.pcgamingwiki.com/4/40/Wetlands_cover.jpg/450px-Wetlands_cover.jpg",
       "image": "assets/scummvm/wetlands.png",
-      "description": "Shooter sobre raíles con mucha narrativa y estética de cómic oscuro. Ambientado en un mundo acuático futurista, Byrne busca venganza."
+      "description": "Shooter sobre raíles con mucha narrativa y estética de cómic oscuro. Ambientado en un mundo acuático futurista, Byrne busca venganza.",
+      "size": "460.7M"
     },
     {
       "id": "whispers_of_a_machine",
@@ -610,7 +670,8 @@
       "folder": "whispers_of_a_machine",
       "imageSrc": "https://f4.bcbits.com/img/a2679595919_16.jpg",
       "image": "assets/scummvm/whispers_of_a_machine.png",
-      "description": "Ciencia ficción nórdica 'noir'. La agente Vera Englund investiga asesinatos relacionados con una tecnología prohibida y una IA."
+      "description": "Ciencia ficción nórdica 'noir'. La agente Vera Englund investiga asesinatos relacionados con una tecnología prohibida y una IA.",
+      "size": "4.0G"
     },
     {
       "id": "woodruff_and_the_schnibble",
@@ -620,7 +681,8 @@
       "folder": "woodruff_and_the_schnibble",
       "imageSrc": "http://aventuraoriginal.com/media/covers/20170328_183058_pP3gLab.png",
       "image": "assets/scummvm/woodruff_and_the_schnibble.png",
-      "description": "Woodruff debe encontrar el mítico Schnibble para salvar a los pacíficos Boozooks de la opresión de los humanos. Humor absurdo."
+      "description": "Woodruff debe encontrar el mítico Schnibble para salvar a los pacíficos Boozooks de la opresión de los humanos. Humor absurdo.",
+      "size": "194.7M"
     },
     {
       "id": "yonkey_island",
@@ -630,7 +692,8 @@
       "folder": "yonkey_island",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Secret%20of%20Monkey%20Island%2C%20The.png",
       "image": "assets/scummvm/yonkey_island.png",
-      "description": "Modificación fan-made de 'Monkey Island' con doblaje y textos al español llenos de modismos regionales y humor de Charnego Translations."
+      "description": "Modificación fan-made de 'Monkey Island' con doblaje y textos al español llenos de modismos regionales y humor de Charnego Translations.",
+      "size": "90.2M"
     },
     {
       "id": "zak_mckracken",
@@ -640,7 +703,8 @@
       "folder": "zak_mckracken",
       "imageSrc": "https://raw.githubusercontent.com/libretro-thumbnails/ScummVM/master/Named_Boxarts/Zak%20McKracken%20and%20the%20Alien%20Mindbenders.png",
       "image": "assets/scummvm/zak_mckracken.png",
-      "description": "Un periodista de tabloides debe evitar que alienígenas idioticen a la humanidad a través de las líneas telefónicas. Clásico de LucasArts."
+      "description": "Un periodista de tabloides debe evitar que alienígenas idioticen a la humanidad a través de las líneas telefónicas. Clásico de LucasArts.",
+      "size": "313.5M"
     }
   ]
 }

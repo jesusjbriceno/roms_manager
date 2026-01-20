@@ -1,18 +1,8 @@
+
 import { useState, useEffect } from 'react';
 import { ConnectionModal } from './components/ConnectionModal';
 import { RomList } from './components/RomList';
-
-// Types matching the new JSON structure
-interface Game {
-  id: string;
-  name: string;
-  zip: string;
-  url: string;
-  folder: string; // The specific folder name for the game (extracted)
-  imageSrc?: string;
-  image?: string;
-  description?: string;
-}
+import { Game, GameStatus, LibraryState } from './types';
 
 interface EmulatorSource {
   basePath: string;
@@ -20,14 +10,7 @@ interface EmulatorSource {
   games: Game[];
 }
 
-// Library Status from Electron
-type GameStatus = 'NOT_INSTALLED' | 'DOWNLOADING' | 'DOWNLOADED' | 'EXTRACTING' | 'EXTRACTED' | 'EXTRACTED_NO_ZIP';
-
-interface LibraryState {
-    id: string;
-    status: GameStatus;
-    lastUpdated: number;
-}
+// Types matching the new JSON structure
 
 function App() {
   const [sources, setSources] = useState<Record<string, EmulatorSource>>({});
@@ -96,11 +79,31 @@ function App() {
       }
   };
 
+
+  const [downloadProgress, setDownloadProgress] = useState<Record<string, number>>({});
+
+  useEffect(() => {
+    const handleProgress = (_: any, { id, percentage }: { id: string, percentage: number }) => {
+        setDownloadProgress(prev => ({ ...prev, [id]: percentage }));
+    };
+    
+    let cleanup: (() => void) | undefined;
+    
+    if ((window as any).ipcRenderer) {
+        cleanup = (window as any).ipcRenderer.on('download:progress', handleProgress);
+    }
+    
+    return () => {
+        if (cleanup) cleanup();
+    };
+  }, []);
+
   const handleDownload = async (game: Game) => {
       const source = sources[activeTab];
       if (!source) return;
 
       setProcessing(prev => new Set(prev).add(game.id));
+      setDownloadProgress(prev => ({ ...prev, [game.id]: 0 }));
       await updateStatus(game.id, 'DOWNLOADING');
 
       try {
@@ -108,6 +111,7 @@ function App() {
           const baseUrl = game.url.startsWith('http') ? '' : 'https://archive.org';
           
           await (window as any).ipcRenderer.invoke('ssh:download', {
+              id: game.id,
               baseUrl,
               resourcePath: game.url,
               destinationFolder: source.zipPath,
@@ -115,9 +119,12 @@ function App() {
           });
 
           await updateStatus(game.id, 'DOWNLOADED');
-      } catch (e) {
+      } catch (e: any) {
           console.error(e);
-          alert('Download failed');
+          // Don't alert if cancelled to avoid annoying popups
+          if (e.message !== 'Cancelled') {
+              alert('Download failed');
+          }
           await updateStatus(game.id, 'NOT_INSTALLED');
       } finally {
           setProcessing(prev => {
@@ -125,6 +132,19 @@ function App() {
               next.delete(game.id);
               return next;
           });
+          setDownloadProgress(prev => {
+              const next = { ...prev };
+              delete next[game.id];
+              return next;
+          });
+      }
+  };
+
+  const handleCancelDownload = async (game: Game) => {
+      try {
+          await (window as any).ipcRenderer.invoke('ssh:cancel', { id: game.id });
+      } catch (err) {
+          console.error("Failed to cancel", err);
       }
   };
 
@@ -195,7 +215,7 @@ function App() {
           
           let newStatus: GameStatus = 'NOT_INSTALLED';
           
-          const currentStatus = library[game.id]?.status;
+
 
           if (deleteZip && deleteGame) {
               newStatus = 'NOT_INSTALLED';
@@ -360,6 +380,8 @@ function App() {
                       onExtract={handleExtract}
                       onDelete={handleDeleteData}
                       processing={processing}
+                      downloadProgress={downloadProgress}
+                      onCancelDownload={handleCancelDownload}
                    />
                 </>
             ) : (

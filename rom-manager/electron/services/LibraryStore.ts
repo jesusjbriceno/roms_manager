@@ -26,6 +26,21 @@ export class LibraryStore {
     try {
       const content = await fs.readFile(this.path, 'utf-8')
       this.data = JSON.parse(content)
+      
+      // Cleanup stale states
+      let changed = false;
+      for (const key in this.data.games) {
+          const game = this.data.games[key];
+          if (game.status === 'DOWNLOADING' || game.status === 'EXTRACTING') {
+              game.status = 'NOT_INSTALLED';
+              changed = true;
+          }
+      }
+      
+      if (changed) {
+          await this.save();
+      }
+
     } catch (error) {
       // If file doesn't exist or is invalid, start with empty
       this.data = { games: {} }
